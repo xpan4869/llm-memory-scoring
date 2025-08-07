@@ -1,0 +1,13 @@
+# Ignore all by default
+*
+
+# But allow these specific files/folders
+!README.md
+!.gitignore
+!data/
+!data/**/*
+!scripts/
+!scripts/**/*
+
+# Again, but ignore .DS_Store even inside those
+*.DS_Store
