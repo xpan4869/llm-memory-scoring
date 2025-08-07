@@ -1,0 +1,465 @@
+event_number,peripheral_id,peripheral
+1.0,P1,Yellow walls
+1.0,P2,Slide open
+1.0,P3,Leftmost man
+1.0,P4,Walk to the right
+1.0,P5,Towards the podiums
+1.0,P6,Audience applaud
+1.0,P7,Take their seats
+1.0,P8,Inspired by a true story
+1.0,P9,Fades from the screen
+2.0,P1,"""Thank you"""
+2.0,P2,Obviously a very bright fellow
+2.0,P3,I see
+2.0,P4,Leans into the mic
+2.0,P5,For the first time
+2.0,P6,I find this all very fascinating
+2.0,P7,His name was Carl Hanratty
+3.0,P1,Standing in the rain
+3.0,P2,With 6 other men
+3.0,P3,Speaking French
+3.0,P4,"Repeatedly saying ""Carl Hanratty"""
+3.0,P5,A French man nods
+4.0,P1,Through a small window
+4.0,P2,With a set of keys
+4.0,P3,Pulls out a stool
+4.0,P4,Setting it down
+4.0,P5,"""You sit here."""
+4.0,P6,Opening a hole in the wall
+4.0,P7,Talks to another jailer
+4.0,P8,Goes to put his briefcase down
+5.0,P1,Kneels down
+5.0,P2,Wrapped in a cloak
+5.0,P3,Slides down the wall
+5.0,P4,Opens his umbrella
+5.0,P5,Leaning forward
+5.0,P6,Knocking over the stool
+5.0,P7,Yells at the guard
+6.0,P1,Speaking French
+6.0,P2,Washing off the lice
+6.0,P3,Wipes his hands with a towel
+6.0,P4,"Door, which is slightly open"
+6.0,P5,Creaking
+6.0,P6,Tugs open the curtains
+6.0,P7,Calls the other jailers over
+7.0,P1,Stumbling down the hallway
+7.0,P2,Falls to his knees
+7.0,P3,Coughing
+7.0,P4,Turns to look at them
+7.0,P5,Gives a small laugh
+7.0,P6,Falls on his back
+8.0,P1,Sitting on bed
+8.0,P2,Opens pizza box
+8.0,P3,Takes a slice out
+8.0,P4,Knock at the door
+8.0,P5,Looks around
+8.0,P6,On the floor
+9.0,P1,Swaying to the music
+9.0,P2,Looks mad
+9.0,P3,Opens her mouth in surprise
+9.0,P4,With another look of realization
+9.0,P5,Picks up the record player needle
+10.0,P1,In a green and white room
+10.0,P2,Hair is tied back
+10.0,P3,Nodding
+10.0,P4,Looks down
+10.0,P5,Holds her stomach happily
+10.0,P6,Baby starts crying
+10.0,P7,Picks up the needle
+11.0,P1,A white flash
+11.0,P2,In a room with a crib
+11.0,P3,Holding a doll
+11.0,P4,Looks around in shock
+11.0,P5,Throws down the doll
+11.0,P6,Reaching up
+11.0,P7,Tries to pick up the needle
+12.0,P1,Gray hair
+12.0,P2,In a wheelchair
+12.0,P3,Looks around surprised
+12.0,P4,Looks down
+12.0,P5,Angry and determined
+12.0,P6,Wiggles her fingers
+12.0,P7,Falls backwards
+13.0,P1,Even older
+13.0,P2,On the floor
+13.0,P3,Seemingly in a nursing home
+13.0,P4,Leans on her walker
+13.0,P5,In surprise
+13.0,P6,Flailing her arms
+13.0,P7,Using her walker
+13.0,P8,Toppling in the background
+14.0,P1,Back of a man's head
+14.0,P2,Picks up a bottle of wine
+14.0,P3,Covers it with his hand
+14.0,P4,Sits back down at her seat
+15.0,P1,Looks up
+15.0,P2,Takes a bite of his food
+15.0,P3,Downs her drink
+15.0,P4,Makes a sound
+15.0,P5,Pours herself another glass
+15.0,P6,Asparagus is very tender
+15.0,P7,Looks down
+15.0,P8,Takes another bite of food
+16.0,P1,Gets up suddenly
+16.0,P2,Throws her drink
+16.0,P3,Covered in wine
+16.0,P4,Wiping her hands
+16.0,P5,On a napkin
+17.0,P1,Shocked
+17.0,P2,Grabs the cigarette
+17.0,P3,Goes to an ashtray
+17.0,P4,Turns around
+17.0,P5,Goes back to her seat
+17.0,P6,Chews before continuing
+17.0,P7,Short mechanical sex
+18.0,P1,Looks up
+18.0,P2,Looks down and then back
+18.0,P3,Puts a hand on his shoulder
+18.0,P4,Sits on his lap
+18.0,P5,Keeps looking forward
+19.0,P1,Close up of her hand
+19.0,P2,Moving down his neck
+19.0,P3,Pauses for a second
+19.0,P4,Head lolls forward
+19.0,P5,Head hangs limp
+19.0,P6,Puts her feet up
+20.0,P1,Smiles
+20.0,P2,Puts a headset to her ear
+20.0,P3,"""DIALING: 0800 800 800"""
+20.0,P4,Looking back at the man
+20.0,P5,"""Just a five-o-clock shadow"""
+20.0,P6,"""And more blonde"""
+20.0,P7,"""Yeah, like the picture"""
+21.0,P1,Writing on a clipboard
+21.0,P2,Wheeling in a box
+21.0,P3,"""Prometeus Robotics"" on the box"
+21.0,P4,In plastic wrap
+21.0,P5,Stares
+21.0,P6,"""Um wait please"""
+21.0,P7,Whirring sound starts
+22.0,P1,The man blinks
+22.0,P2,Looks around
+22.0,P3,Takes a bite of his food
+22.0,P4,The woman watches
+22.0,P5,Smiles and nods
+22.0,P6,Shakes his head while eating
+22.0,P7,Smiles a bit
+23.0,P1,Behind the woman
+23.0,P2,Shoulder massage
+23.0,P3,Closes her eyes
+23.0,P4,Blinks
+23.0,P5,Smiles
+23.0,P6,Laughs slightly
+23.0,P7,Head hangs forward
+24.0,P1,Back of the woman's neck
+24.0,P2,Panning upward
+24.0,P3,Takes a seat on the sofa
+24.0,P4,Lights a cigarette
+24.0,P5,Face blank
+24.0,P6,Smokes
+25.0,P1,Lying flat
+25.0,P2,Suddenly moves upright
+25.0,P3,Tapping to the beat
+25.0,P4,Falls on the floor
+25.0,P5,Starts again
+26.0,P1,Licking his lips
+26.0,P2,Peering into the hole
+26.0,P3,Squints
+26.0,P4,Wearing a red shirt
+26.0,P5,Gestures angrily
+26.0,P6,Falls backwards
+27.0,P1,Looking at the woman
+27.0,P2,Trips on the sidewalk
+27.0,P3,"Tilts his head, squinting"
+27.0,P4,Puts his milk carton on a fence
+27.0,P5,Swings his arms side to side
+27.0,P6,Ducks under a billboard box
+27.0,P7,Doing turkey motions with hands
+27.0,P8,Pretends to hurt while walking
+27.0,P9,Holds her head
+27.0,P10,Gestures frantically with hands
+28.0,P1,On the car's windshield
+28.0,P2,Averts her eyes
+28.0,P3,Jumps
+28.0,P4,Flying into the air
+28.0,P5,Lands on its side
+28.0,P6,Shocked
+28.0,P7,Looks in the air
+28.0,P8,Falling through the air
+28.0,P9,Beaten up shoe
+29.0,P1,Blue car
+29.0,P2,Tall black building
+29.0,P3,Across the screen
+29.0,P4,In white text
+30.0,P1,A blue man
+30.0,P2,Takes a hat out of the car
+30.0,P3,Music plays
+30.0,P4,With a briefcase
+30.0,P5,Climbing the stairs
+30.0,P6,Flagging the person down
+30.0,P7,Bending over now on the fourth floor
+30.0,P8,Makes her a cup of coffee
+30.0,P9,Dumps the coffee out the window
+30.0,P10,Hitting a man on a ladder outside
+31.0,P1,The man outside falls
+31.0,P2,"Narrator says, ""meanwhile"""
+31.0,P3,On the second floor
+31.0,P4,Bill gets up from his chair
+31.0,P5,Looks out the window
+32.0,P1,Looking at his shiny reflection
+32.0,P2,Green man
+32.0,P3,Fat gold-nibbed pen
+32.0,P4,Weaker than expected handshake
+32.0,P5,On the fourth floor
+32.0,P6,Drops his briefcase
+33.0,P1,Unusually long length of time
+33.0,P2,Their mouths were open
+33.0,P3,Felt himself taking a deep breath
+33.0,P4,Exhales his deep breath
+33.0,P5,Covers his mouth
+33.0,P6,Turns around
+33.0,P7,Some more quick thinking was needed
+34.0,P1,Green woman
+34.0,P2,Slowly
+34.0,P3,Lugs Patrick along
+34.0,P4,Eyes roll in the back of her head
+34.0,P5,On the landing with a crack
+34.0,P6,Careful not to step in any blood
+35.0,P1,On the fourth floor
+35.0,P2,Outside the fifth floor window
+35.0,P3,Playing trash basketball
+35.0,P4,Drops what she was holding
+35.0,P5,Looked at him in a way
+35.0,P6,Slumped over
+36.0,P1,Out the window
+36.0,P2,Pulls too hard
+36.0,P3,Falls to the ground outside
+36.0,P4,Catches himself on the ladder
+36.0,P5,Work a floor below
+36.0,P6,Mop the floors
+37.0,P1,Large eyes
+37.0,P2,Blinks
+37.0,P3,Flies past to the right
+37.0,P4,Jumps out of the water
+37.0,P5,Makes a noise
+37.0,P6,Closes its eyes
+37.0,P7,Rolls through the snow
+38.0,P1,"Growls, agitated"
+38.0,P2,Tries to sleep again
+38.0,P3,Toward the forest
+38.0,P4,By a cliff
+38.0,P5,Rope tied around its nose
+38.0,P6,Waking the rock up
+38.0,P7,On a cart
+38.0,P8,"Spins, faster and faster"
+39.0,P1,Wearing blue
+39.0,P2,Only their shadows showing
+39.0,P3,Drumroll
+39.0,P4,Whistles and rings a bell
+39.0,P5,Soldiers cheer
+39.0,P6,Chipped and broken
+39.0,P7,Fish swim nearby
+40.0,P1,Solemn music plays
+40.0,P2,Right by another rock
+40.0,P3,Near a house
+40.0,P4,Smiles and brushes it
+40.0,P5,Laughs happily
+41.0,P1,White flash
+41.0,P2,Crowd gathered around
+41.0,P3,Kids running past
+41.0,P4,Blinking
+41.0,P5,Presses his face to the glass
+41.0,P6,Shaking it
+41.0,P7,Being rolled by a janitor
+42.0,P1,Onto the street
+42.0,P2,In a hurry
+42.0,P3,Through a window
+42.0,P4,Hits a man’s face
+42.0,P5,Rolls through another window
+42.0,P6,Bounces and falls
+42.0,P7,Honks
+42.0,P8,Uses paper to cover itself
+42.0,P9,Among dust and sand
+43.0,P1,Among other rocks
+43.0,P2,Swept off the road
+43.0,P3,Into a sand pile
+43.0,P4,Tries to go to sleep
+43.0,P5,As seagulls fly by
+43.0,P6,Dumps it into a truck
+44.0,P1,Along with sand
+44.0,P2,Gets heated up
+44.0,P3,Falls into a molten pot
+44.0,P4,Looking up
+44.0,P5,Hovering over the rock
+44.0,P6,Covering it with something
+45.0,P1,People from the city watch
+45.0,P2,Closer shot revealing it as a telescope
+45.0,P3,Humans on earth in a control room applaud
+45.0,P4,Presses a red button
+45.0,P5,Cracked and spinning
+45.0,P6,Heating up to the point it turns to fire
+45.0,P7,Sighs and closes its eyes to fall asleep
+46.0,P1,Cleaning outside a cafe
+46.0,P2,She turns around
+46.0,P3,Moving a chair
+46.0,P4,Turns back to the table
+46.0,P5,Walks away
+46.0,P6,Grabbing her arm
+46.0,P7,She looks away
+46.0,P8,Around the corner
+46.0,P9,Walks quickly away
+46.0,P10,"""We'll be with you in a minute"""
+46.0,P11,"""Thank you"""
+47.0,P1,Looks back and then forward
+47.0,P2,Suddenly he stops
+47.0,P3,Walks left
+47.0,P4,Toward a bulletin board
+47.0,P5,L-shaped phone device
+47.0,P6,Looks down at the phone
+47.0,P7,Looks up
+48.0,P1,Toward the camera
+48.0,P2,Stops and looks around
+48.0,P3,In front of a village map
+48.0,P4,Hovers his finger
+48.0,P5,"""Push and find out"""
+48.0,P6,Sound of a car engine revving
+48.0,P7,Turns around to look at her
+48.0,P8,Speaks in French
+48.0,P9,Looks around as the car starts
+49.0,P1,Rounds a corner
+49.0,P2,Looks to the woman and back
+49.0,P3,Looks around at the town
+49.0,P4,Woman smiles
+49.0,P5,Pass a house and a biker
+49.0,P6,Woman makes a gesture like a salute
+49.0,P7,Man looks at the signs outside
+49.0,P8,"Woman says, ""be seeing you!"""
+50.0,P1,Looks at the “general store” sign
+50.0,P2,Steps inside the store
+50.0,P3,Looks around
+50.0,P4,Closes the door
+50.0,P5,Walks to the right
+50.0,P6,"Says ""thank you"" in English"
+50.0,P7,Looks confused
+51.0,P1,Walks around the counter
+51.0,P2,Looks away
+51.0,P3,Watches carefully
+51.0,P4,Laying it out on the counter
+51.0,P5,Shakes his head
+51.0,P6,Moving things in a cabinet
+51.0,P7,Turns quickly
+51.0,P8,Bell rings
+51.0,P9,Doing the salute
+52.0,P1,White shirt and gray tie
+52.0,P2,Sighs
+52.0,P3,Beeps
+52.0,P4,Frowning
+52.0,P5,Repeatedly three times
+52.0,P6,Raises his eyebrows
+52.0,P7,Looks at the time on wristwatch
+53.0,P1,Picks up a cup
+53.0,P2,Kneels and looks closely
+53.0,P3,Puts his hand next to it
+53.0,P4,Draws back quickly
+53.0,P5,Looks to the side and back
+53.0,P6,Laughs quietly
+53.0,P7,Looks around
+54.0,P1,On the glass surface
+54.0,P2,Looks back
+54.0,P3,Eating the candy
+54.0,P4,Looks up and smiles
+54.0,P5,Takes a bite of his candy
+55.0,P1,Flickers once
+55.0,P2,Kneels down
+55.0,P3,Black hole against the door
+55.0,P4,Looks back
+55.0,P5,Hurriedly
+55.0,P6,Periodically looking back
+55.0,P7,Fully through
+55.0,P8,Banging on the door
+56.0,P1,On a purple wall
+56.0,P2,Standing and looking down
+56.0,P3,Across a divider
+56.0,P4,Moving in harmony
+56.0,P5,Lean down to refill
+56.0,P6,Lock eyes
+56.0,P7,Look back down
+56.0,P8,Smiles shyly
+57.0,P1,Blue paper
+57.0,P2,Smiley face made of pink post-it notes
+57.0,P3,Looks to the right
+57.0,P4,Quickly ducks into her cubicle
+57.0,P5,Rolls his chair forward
+58.0,P1,Rolls up the blinds
+58.0,P2,Sun made of post-it notes
+58.0,P3,Biting her nails
+58.0,P4,Straightening his tie
+58.0,P5,Closes a stall door
+58.0,P6,Thought bubble with a heart
+59.0,P1,Shuts the door behind her
+59.0,P2,Close up of her eyes
+59.0,P3,Post-it flowers on the closet wall
+59.0,P4,Holding piles of post-its
+59.0,P5,Looks outside
+59.0,P6,Tears in her eyes
+59.0,P7,Smiles
+60.0,P1,Shining brightly
+60.0,P2,Quiet street
+60.0,P3,Red t-shirt
+60.0,P4,Sweating as he blinks
+60.0,P5,Melting in the heat
+60.0,P6,Hands over her mouth
+61.0,P1,Her car rolls down the street
+61.0,P2,The man looks away
+61.0,P3,Makes a phone gesture
+61.0,P4,Removes his headphones
+61.0,P5,Walks back and forth
+61.0,P6,The man watches her
+61.0,P7,Throws the phone on the pavement
+62.0,P1,Hands on her face
+62.0,P2,Crying
+62.0,P3,Kneeling down
+62.0,P4,With his phone
+62.0,P5,Shakes her head
+63.0,P1,Back of a man's head
+63.0,P2,Turning a corner
+63.0,P3,Orchestral music playing
+63.0,P4,Leaning back
+63.0,P5,Resting his arm against window
+63.0,P6,Woman mumbling words
+63.0,P7,Looks down
+64.0,P1,Leaning on his car
+64.0,P2,Points at her
+64.0,P3,Shakes his head
+64.0,P4,Waiting for the bus
+64.0,P5,Used my phone
+64.0,P6,Backs up
+64.0,P7,Points to the woman
+65.0,P1,"Yelling, ""shut up!"""
+65.0,P2,Pointing a gun at him
+65.0,P3,Putting his hands out
+65.0,P4,Pulls out a gun from nowhere
+65.0,P5,Looks at him angrily
+65.0,P6,Sound of a baby crying
+66.0,P1,Crying gets louder
+66.0,P2,Takes a step back
+66.0,P3,Runs toward the car
+66.0,P4,Takes out a cloth from pocket
+66.0,P5,Stumbled back in despair
+66.0,P6,Eyes roll to the back of head
+66.0,P7,Collapsing on the ground in slow motion
+67.0,P1,Lying on the floor
+67.0,P2,Making dog noises
+67.0,P3,Mini coffin
+67.0,P4,On all fours
+67.0,P5,Eating ice cream off the ground
+67.0,P6,Bleeding out on the pavement
+67.0,P7,Looks back and forth
+67.0,P8,Crawls toward the woman
+68.0,P1,Sniffs the woman's leg
+68.0,P2,Perks up
+68.0,P3,Crawling toward the sound
+68.0,P4,Looking both ways
+68.0,P5,On all fours
+68.0,P6,Circle and sniff each other
+68.0,P7,Fight on their backs

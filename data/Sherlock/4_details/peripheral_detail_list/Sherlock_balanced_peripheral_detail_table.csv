@@ -1,0 +1,377 @@
+event_number,peripheral_id,peripheral
+1,P1,"In popcorn, candy, and soft drink costumes"
+1,P2,A young woman sings
+1,P3,A father with a black suit
+1,P4,His older sister with a red shirt and red hair and red bow
+1,P5,A woman is at the cash register
+2,P1,Along a wall made of stacked stones
+2,P2,In the middle of a grassy field
+2,P3,Sitting ducked beneath the wall
+2,P4,Filled with tall grass
+2,P5,Sideways view of John sleeping
+2,P6,Tossing in bed while sleeping
+2,P7,Quick shot of John's face in pain
+2,P8,Lying down on the battlefield
+2,P9,Full body view of John lying down
+2,P10,"Someone calls out ""John!"""
+2,P11,Random gunfire by a soldier standing nearby
+2,P12,Someone is heard screaming amongst gunfire
+3,P1,Panting
+3,P2,Breathing is rough
+3,P3,Slowly calming down
+3,P4,Breathing is getting slower
+3,P5,Begins to weep
+4,P1,Sits upright on his bed
+4,P2,Bedside lamp on
+4,P3,Cane resting by his desk
+4,P4,Looks down at his hands
+4,P5,Gown on
+4,P6,Mug with a coat of arms
+4,P7,Green apple on the desk
+4,P8,Sighs as he stares into screen
+5,P1,Floral wallpaper
+5,P2,Hesitantly replies
+5,P3,Brown colour themed room
+5,P4,Points at the psychologist's notes
+5,P5,Smirks and does not answer
+5,P6,Gazes back with a look of despair
+6,P1,Lots of traffic
+6,P2,Man dressed in a suit
+6,P3,Blood coming from his forehead
+6,P4,White shirt and black pants
+6,P5,Strange symbols appear overlayed
+6,P6,Fingers holding a small bottle
+6,P7,A single drop of clear fluid hangs on the tip
+7,P1,Purple shirt
+7,P2,Black skirt
+7,P3,Across a room
+7,P4,Busy London railway station
+7,P5,Looks around
+7,P6,Says quietly
+8,P1,Shakily unscrewing
+8,P2,Three white and red pills inside
+8,P3,Sitting by a window
+8,P4,In his right hand
+8,P5,Touching the glass window
+9,P1,Seated at a table
+9,P2,Tearfully from her statement
+9,P3,Policeman to her left
+9,P4,Lawyer to her right
+9,P5,Let her tears roll down
+10,P1,Both with dark clothes
+10,P2,Jimmy has his hood on
+10,P3,Yellow sign lit
+10,P4,Makes an exasperated sound
+10,P5,Getting soaked in the rain
+11,P1,Scared eyes
+11,P2,Shakily clutching
+11,P3,Small glass bottle
+11,P4,Sitting on a window ledge
+11,P5,Overlooking a sports court
+12,P1,Pounding music
+12,P2,In formalwear
+12,P3,Looks a little frustrated
+12,P4,Smiles with satisfaction
+12,P5,Looks around helplessly
+12,P6,Trembling hand
+13,P1,Lestrade sits uncomfortably
+13,P2,Donovan looks up at the reporters
+13,P3,Lestrade has his hands together
+13,P4,Everyone's phones trill a text message alert
+13,P5,Lestrade grimaces
+13,P6,Donovan covers her mouth
+13,P7,Lestrade looks exasperated
+13,P8,Lestrade puts the phone into his pocket
+14,P1,Walking with a limp
+14,P2,Man dressed in a beige jacket
+14,P3,Mike grins
+14,P4,John takes a sip of his coffee
+14,P5,Mike chuckles
+14,P6,John clenching his left hand
+14,P7,Mike awkwardly looks away
+15,P1,Sniffs
+15,P2,Fake smile
+15,P3,Flinching but smiling
+15,P4,Breathless
+15,P5,Smiles and asks
+15,P6,Chuckles
+15,P7,Nervously says
+15,P8,Flirtatiously
+15,P9,Long oblivious look
+15,P10,Gazes at him intently
+15,P11,Awkwardly stands alone
+16,P1,Sherlock peers down at his sample
+16,P2,John stands silently and awkwardly
+16,P3,Sherlock never looks at Mike while speaking
+16,P4,John tilts his head in confusion
+16,P5,"Sherlock makes a gesture denoting ""small"""
+16,P6,Sherlock grimaces at the taste of coffee
+16,P7,Mike throws a smirk at John
+16,P8,John awkwardly shifts his weight with his cane
+17,P1,Blankly stares straight ahead
+17,P2,Into his left pocket
+17,P3,Glances at his laptop
+17,P4,With his cane
+17,P5,On his desk
+17,P6,Being typed
+18,P1,Pink overcoat
+18,P2,Pink high-heeled shoes
+18,P3,Trembling hand with pink fingernails
+19,P1,John walking with his cane
+19,P2,Black taxi pulls up
+19,P3,Sherlock reaches in through the window
+19,P4,Hands some money to the driver
+19,P5,Sherlock has his hands behind his back
+19,P6,Mrs. Hudson smiles
+19,P7,Sherlock hugs Mrs. Hudson briefly
+19,P8,John hobbles up the stairs
+19,P9,John takes time to look around the flat
+19,P10,Boxes everywhere
+19,P11,John points with his cane
+19,P12,Sherlock organizing books
+19,P13,John plumps up a cushion
+20,P1,Walking around
+20,P2,Puts his hands into his pant pockets
+20,P3,Nonchalantly asks
+20,P4,With a proud smile
+20,P5,"""You have got to be kidding me type of look"""
+20,P6,Looks surprised and a little hurt
+20,P7,Stares at Sherlock intently
+21,P1,Comes out of the kitchen
+21,P2,Staring out at the window
+21,P3,Continues in the background
+21,P4,Closer to the living room window
+21,P5,Sound of a car pulling up
+21,P6,Lights flashing
+22,P1,Trots up the stairs
+22,P2,With a concerned look
+22,P3,Sherlock grimaces
+22,P4,John sitting down on a chair
+22,P5,Lestrade gives a little bow
+22,P6,Sherlock smiles and leaps
+22,P7,Mrs. Hudson standing by the entrance
+23,P1,John grimaces
+23,P2,Mrs. Hudson jumps
+23,P3,Bashes his leg with his cane
+23,P4,Grabs a newspaper
+23,P5,On the right arm of his chair
+23,P6,Opens the newspaper in his hands
+23,P7,Folds the half of the newspaper
+24,P1,Putting on a pair of black gloves
+24,P2,With his cane with a small grunt
+24,P3,In a serious tone
+24,P4,Quickly runs down the stairs
+24,P5,Kisses her noisily on the cheek
+24,P6,Mrs. Hudson can't help but smile
+24,P7,Signals to the left and merges with traffic
+25,P1,Eyes fixed on his smartphone
+25,P2,Nervous glances
+25,P3,Takes a deep breath
+25,P4,Looks outside the taxi window
+25,P5,Holds his hand out to John
+25,P6,Scratches on the phone
+25,P7,Waves the phone around a little bit
+25,P8,Biting his lip nervously
+25,P9,Taxi passes by a clothing store with mannequins
+26,P1,Adjusts his coat while walking
+26,P2,Looking impressed with himself
+26,P3,Stops dead in his tracks
+26,P4,Continues walking
+26,P5,Furiously and with gritted teeth
+26,P6,Exasperated
+27,P1,Lifts the yellow tape
+27,P2,Ducks underneath it
+27,P3,Takes a deep breath through nose
+27,P4,Stares in disbelief
+27,P5,Points at Sherlock
+27,P6,Stops in his tracks awkwardly
+27,P7,Looks all around the area
+27,P8,Looks at him in distaste
+27,P9,Sniffs pointedly
+27,P10,Smiles smugly
+28,P1,"In popcorn, candy, and soft drink costumes"
+28,P2,A father with a black suit
+28,P3,A little boy with a striped shirt
+28,P4,Older sister with a red shirt and red hair and red bow
+28,P5,A mother with a green shirt and grey skirt
+29,P1,On the ground floor
+29,P2,Lestrade is putting on a coverall
+29,P3,Sherlock taking his gloves off
+29,P4,John shakes his head
+29,P5,White cotton coverings over their shoes
+29,P6,Spiral staircase
+29,P7,Rocking horse in the far corner
+29,P8,Emergency portable lighting
+30,P1,Sherlock walks a few steps
+30,P2,Lestrade has his hands behind his back
+30,P3,John's face fills with sadness
+30,P4,Pink jacket on the woman
+30,P5,Sherlock abruptly turns round
+30,P6,Lestrade throws a surprised look
+30,P7,John tilts his head left and right
+30,P8,Sherlock smiles slightly in satisfaction
+31,P1,Removes his gloves
+31,P2,Casually leaning against the doorway
+31,P3,Walked quickly towards the door
+31,P4,Not taking his eyes off his phone
+31,P5,Smiles smugly
+31,P6,John looks contemplative
+31,P7,John is looking a little confused
+32,P1,John awkwardly staying silent
+32,P2,Lestrade lowers his eyes
+32,P3,John quickly turns round
+32,P4,John painfully lowers himself
+32,P5,Leaning heavily on his cane
+32,P6,John softly replies
+32,P7,John puts his head close to the woman's and sniffs
+32,P8,John looks surprised
+33,P1,John is struggling to get on his feet
+33,P2,Woman dressed in pink on the floor
+33,P3,Lestrade has his arms crossed
+33,P4,Sherlock is squatting down beneath the body
+33,P5,John looks at Sherlock in shock
+33,P6,Sherlock speaks in a low voice
+33,P7,Lestrade asks at the back
+33,P8,John looks stunned at Sherlock's deduction
+33,P9,Lestrade shakes his head
+34,P1,Sherlock straightens up
+34,P2,Lestrade passes the police standing guard
+34,P3,Sherlock holds his hands in front of his face in delight
+34,P4,John stays silent beside Lestrade
+34,P5,Lestrade leans over the railings
+34,P6,John hesitates on the landing
+34,P7,A police officer bumps against John
+35,P1,Still looking around
+35,P2,"Thoughtfully, unsure of what to do"
+35,P3,Looks down awkwardly
+35,P4,Ducks under the tape
+35,P5,Stops in his tracks
+35,P6,Unknowing look
+35,P7,Nods while speaking
+35,P8,Expressionless
+35,P9,Limp down the road
+36,P1,In a red booth
+36,P2,Looks at it for a few seconds
+36,P3,Shakes his head
+36,P4,"Yells out: ""Taxi! Taxi…"""
+36,P5,Mystified by this
+36,P6,Frowns
+36,P7,Looks through the window
+36,P8,Staring up into the camera
+36,P9,Looks thoughtful for a moment
+36,P10,Turns to leave the phone box
+37,P1,On the right seat
+37,P2,Right behind the driver
+37,P3,Eyes fixed on her BlackBerry
+37,P4,Smiles brightly at him
+37,P5,Awkwardly stays seated
+37,P6,Twists to look out of the rear window briefly
+37,P7,Looks straight at the road
+37,P8,Almost-empty warehouse
+38,P1,Leaning nonchalantly on an umbrella
+38,P2,Only his backside is shown
+38,P3,Car's lights are still on
+38,P4,Leaning heavily on his cane
+38,P5,Gestures with the point of his umbrella
+38,P6,Voice is calm
+38,P7,Looks around the warehouse
+38,P8,Voice has a pleasant smile in it
+38,P9,Looks away thoughtfully
+38,P10,John's phone trills a text alert
+39,P1,John immediately takes his phone out
+39,P2,The Man laughs briefly
+39,P3,John looks a little unnerved
+39,P4,John looks down at the notebook
+39,P5,The Man looks at him closely
+39,P6,John tilts his head
+39,P7,John shakes his head
+39,P8,Through bared teeth
+39,P9,The Man leans on his umbrella casually
+40,P1,Deliberately shifts his feet
+40,P2,Hooking the handle of the umbrella
+40,P3,"Raises his left hand, bending it at the elbow"
+40,P4,Small smile
+40,P5,Reluctantly lowers his hand
+40,P6,Holding it out flat with the palm down
+40,P7,Muscle in his cheek twitches repeatedly
+40,P8,Eyes flicker downwards
+40,P9,Casually twirling his umbrella
+40,P10,John's eyes rise up to meet his
+40,P11,"Looks angry, but defeated"
+40,P12,Anthea's attention fixed on the BlackBerry
+41,P1,Half turns
+41,P2,From his left pocket
+41,P3,Lack of tremor
+41,P4,Smiles wryly
+41,P5,Switches on the light
+41,P6,Closes the door behind him
+42,P1,Looking around to his right
+42,P2,Opens his desk drawer
+42,P3,Checks the clip of the gun
+42,P4,Into the back of his waistband
+42,P5,Of his jeans
+43,P1,Fixated on her phone
+43,P2,Nonchalantly says
+43,P3,Smiles across to him briefly
+43,P4,Smiles while typing on her phone
+43,P5,Sarcastically says
+43,P6,Waiting expectantly
+43,P7,Continues working on her phone
+43,P8,Allows her gaze to drift past him
+44,P1,Stretched out on the sofa
+44,P2,Head towards the window
+44,P3,Resting on a cushion
+44,P4,Shirt sleeves unbuttoned and pushed up
+44,P5,Eyes snap open wide
+44,P6,Noisy breath
+44,P7,Presses hands together in a prayerful position
+44,P8,John frowns
+45,P1,Eyes closed
+45,P2,Hands together
+45,P3,John glares at Sherlock
+45,P4,Sherlock lying down peacefully
+45,P5,John slaps the phone into his hand
+45,P6,John half-smiles in disbelief
+45,P7,Sherlock refolds his hands under his chin
+46,P1,Looking out of the window
+46,P2,Frowns in confusion
+46,P3,Unfazed by John's answer
+46,P4,Visibly relaxes
+46,P5,Pauses for a moment
+46,P6,Surprised by Sherlock's reaction
+46,P7,Narrowing his eyes suspiciously
+46,P8,Says softly
+46,P9,With more strength in his voice
+47,P1,Dark look
+47,P2,Hands together and eyes closed
+47,P3,Shaking his head
+47,P4,Briefly looks across to Sherlock
+47,P5,Flips his legs around
+47,P6,Picks up a small pink suitcase
+47,P7,Staggers backward slightly in shock
+47,P8,All in pink
+48,P1,Moves backward in shock
+48,P2,Rolls his eyes
+48,P3,Sarcastically
+48,P4,Smirks
+48,P5,Perching on the seat
+48,P6,Braced against the back rest
+48,P7,Limps across the room
+48,P8,Clasps his hands under his chin
+48,P9,Drops heavily into the armchair
+48,P10,Makes a placatory gesture with his right hand
+49,P1,Sherlock smiles
+49,P2,Puts his hands down onto the arms of the chair
+49,P3,Lowers his feet to sit down properly
+49,P4,Looks at John expectantly
+49,P5,"John says: ""Er…"" thoughtfully"
+49,P6,John has a shocked look on his face
+49,P7,Phone continues to ring
+50,P1,Pauses dramatically
+50,P2,Abruptly flips the lid
+50,P3,Adjusts his jacket
+50,P4,Reaches behind the door
+50,P5,Organizing his scarf
+50,P6,Smiles briefly
+50,P7,Looks away in exasperation
+50,P8,Roughly leans onto his cane

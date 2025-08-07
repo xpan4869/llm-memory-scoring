@@ -1,0 +1,377 @@
+event_number,central_id,central_content
+1,C1,People in costumes parade and sing a song
+1,C2,Popcorn is being popped in a large machine
+1,C3,A family of four is snacking on popcorn and candy
+1,C4,Background singers describe snacks and drinks
+1,C5,On-screen text and countdown accompany the song
+2,C1,Gunfire by soldiers along a wall
+2,C2,Bomb or land mine explodes in a grassy field
+2,C3,Soldier kicks open a door
+2,C4,Soldiers shooting at a target behind a wall
+2,C5,John tossing in bed while sleeping
+2,C6,Two soldiers hand signaling in tall grass
+2,C7,Soldier collapses after signaling
+2,C8,Soldier runs across the battlefield
+2,C9,Soldier aiming to kill a target off screen
+2,C10,John's face in pain on the battlefield
+2,C11,John lying down in pain in battle
+2,C12,First person view of soldier running in battle
+3,C1,John wakes up to an echoing voice
+3,C2,John gets up from bed
+3,C3,John is panting from nightmares
+3,C4,John calms his breathing
+3,C5,John begins to weep
+4,C1,John is unable to sleep and sits on his bed contemplatively.
+4,C2,John looks at a cane resting by his desk.
+4,C3,Passage of time is shown as the sun rises.
+4,C4,John enters the room with a gown and a cane.
+4,C5,John places a mug with a coat of arms and a green apple on his desk.
+4,C6,"John retrieves a laptop from his desk drawer, which also contains a pistol and a notebook."
+4,C7,"John opens his laptop to his blog page titled ""THE PERSONAL BLOG OF Dr. John H. Watson."""
+4,C8,"A woman's voice, presumably a psychotherapist, asks about John's blog."
+5,C1,John is in a session with a psychotherapist.
+5,C2,Psychotherapist notes John has trust issues.
+5,C3,John reads the psychotherapist's notes upside down.
+5,C4,Psychotherapist points out John's ability to read upside down.
+5,C5,Psychotherapist advises John to write a blog to adjust to civilian life.
+5,C6,John expresses despair and says nothing happens to him.
+6,C1,"Title ""SHERLOCK"" appears on screen"
+6,C2,Crime-related scenes are shown
+6,C3,Man in suit with blood on forehead
+6,C4,"Words like ""Bomber"" and ""Connection"" overlayed"
+6,C5,Woman walking on street with symbols overlayed
+6,C6,Drop of liquid from pipette onto blood sample
+6,C7,Zoom into blood sample showing red blood cells
+7,C1,Helen is speaking on the phone with Sir Jeffrey.
+7,C2,Sir Jeffrey is at a busy London railway station.
+7,C3,Sir Jeffrey is upset about the lack of a car.
+7,C4,Helen suggests Sir Jeffrey get a cab.
+7,C5,Helen expresses affection for Sir Jeffrey.
+7,C6,Sir Jeffrey smiles and considers getting a cab.
+8,C1,Sir Jeffrey unscrews a bottle with pills
+8,C2,Sir Jeffrey takes a pill
+8,C3,Sir Jeffrey looks fearfully at someone
+8,C4,Sir Jeffrey is seen choking and gasping
+8,C5,"Sir Jeffrey's wife, Margaret, speaks in the background"
+9,C1,Ms. Patterson is at a press conference
+9,C2,Ms. Patterson reads a statement about Sir Jeffrey's life and death
+9,C3,Sir Jeffrey Patterson is implied to have taken his own life
+9,C4,Helen is present and visibly emotional
+9,C5,Ms. Patterson expresses shock and mystery over Sir Jeffrey's death
+10,C1,Two young men are walking in the rain.
+10,C2,"Jimmy tries to hail a taxi, but it doesn't stop."
+10,C3,Jimmy tells Gary he will be back in two minutes.
+10,C4,Jimmy decides to go home to get his mum's umbrella.
+10,C5,Gary waits for a long time and then goes to find Jimmy.
+11,C1,Jimmy is holding a small glass bottle with capsules
+11,C2,Jimmy is sobbing
+11,C3,Jimmy unscrews the lid of the bottle
+11,C4,Jimmy is sitting on a window ledge inside a sports centre
+11,C5,"Newspaper article headline states: ""Boy, 18, kills himself inside sports centre"""
+12,C1,"A party is being held for Beth Davenport, Junior Minister for Transport."
+12,C2,Beth's aides discuss her dancing and retrieve her car keys.
+12,C3,Beth leaves the venue and searches for her car keys outside.
+12,C4,Beth is found sobbing at a building site with capsules nearby.
+12,C5,Sergeant Donovan reports Beth Davenport's body was found.
+12,C6,"The episode title ""A STUDY IN PINK"" appears on the screen."
+13,C1,Press conference held by Detective Inspector Lestrade and Detective Sergeant Sally Donovan.
+13,C2,Donovan announces that a recent apparent suicide is linked to previous cases.
+13,C3,Reporters question how suicides can be linked.
+13,C4,Lestrade explains that the suicides involved the same poison and unusual locations.
+13,C5,"Reporters and detectives receive simultaneous text messages saying ""Wrong!"" during the conference."
+13,C6,Lestrade insists the cases are suicides despite reporters' questions about potential murders.
+13,C7,"Lestrade receives a text message saying ""You know where to find me. SH"" and ends the conference."
+13,C8,Donovan expresses frustration about the mysterious texts making them look incompetent.
+14,C1,John is walking with a limp through Russell Square Park.
+14,C2,"A man in a beige jacket calls out to John, identifying him as John Watson."
+14,C3,"The man introduces himself as Mike Stamford, an acquaintance from Bart's."
+14,C4,John and Mike discuss John's past experience of getting shot.
+14,C5,"John and Mike sit on a park bench with coffee, discussing their current situations."
+14,C6,John mentions he can't afford London on an army pension.
+14,C7,"Mike suggests John get a flatshare, noting someone else asked him the same question."
+15,C1,Sherlock unzips the body bag and examines the corpse.
+15,C2,Sherlock asks Molly about the freshness of the body.
+15,C3,Molly informs Sherlock that the body is fresh and mentions knowing the deceased.
+15,C4,Sherlock decides to use a riding crop on the body for an experiment.
+15,C5,Sherlock conducts the experiment by flogging the body.
+15,C6,Molly observes Sherlock's experiment with admiration.
+15,C7,Sherlock explains the purpose of the experiment related to a man's alibi.
+15,C8,Molly attempts to ask Sherlock out for coffee.
+15,C9,Sherlock notices Molly's lipstick and comments on it.
+15,C10,"Molly invites Sherlock for coffee, but he misunderstands and asks for a coffee order."
+15,C11,"Sherlock leaves the room, leaving Molly standing alone."
+16,C1,Sherlock is working in a lab when Mike and John enter.
+16,C2,Sherlock asks to borrow a phone due to lack of signal.
+16,C3,John offers his phone to Sherlock.
+16,C4,"Sherlock deduces John's background, including his military service in Afghanistan."
+16,C5,Sherlock suggests they could be flatmates and mentions a place in central London.
+16,C6,John is surprised by Sherlock's deductions and the flatmate suggestion.
+16,C7,Sherlock reveals his name and address to John before leaving.
+16,C8,Mike confirms Sherlock's behavior is typical.
+17,C1,John sits on his bed and looks at his phone
+17,C2,John reads a message from Sherlock
+17,C3,The message instructs to arrest brother if he has a green ladder
+17,C4,John looks at his laptop
+17,C5,"John searches for ""Sherlock"" on his laptop"
+17,C6,"John refines his search to ""Sherlock Holmes"""
+18,C1,Woman reaches for a glass bottle
+18,C2,Bottle contains three large capsules
+18,C3,Woman's hand is trembling as she picks it up
+19,C1,John walks with a cane towards 221B Baker Street.
+19,C2,Sherlock exits a taxi and greets John.
+19,C3,John and Sherlock shake hands and introduce themselves.
+19,C4,John comments on the prime location and its expense.
+19,C5,"Sherlock explains Mrs. Hudson owes him a favor, allowing him to live there."
+19,C6,"Mrs. Hudson greets Sherlock and John, inviting them inside."
+19,C7,"Sherlock and John enter the flat, which is messy."
+19,C8,John and Sherlock discuss the potential of the flat.
+19,C9,Mrs. Hudson suggests there is another bedroom upstairs.
+19,C10,"John clarifies they need two bedrooms, implying they are not a couple."
+19,C11,"Sherlock organizes books, seemingly oblivious to Mrs. Hudson's insinuation."
+19,C12,"Mrs. Hudson tidies up the kitchen, commenting on the mess."
+19,C13,"John sits in an armchair, observing Sherlock tidying up."
+20,C1,John tells Sherlock he looked him up on the internet.
+20,C2,"John mentions finding Sherlock's website, The Science of Deduction."
+20,C3,Sherlock asks John what he thought of the website.
+20,C4,John is skeptical about Sherlock's claims on the website.
+20,C5,Sherlock demonstrates his deduction skills by analyzing John's background.
+20,C6,John is in disbelief at Sherlock's deductions.
+20,C7,Sherlock ignores John's question and returns to tidying up.
+21,C1,Mrs. Hudson asks Sherlock about the suicides
+21,C2,Sherlock is looking out the window
+21,C3,Mrs. Hudson mentions three suicides
+21,C4,Sherlock hears a car pulling up
+21,C5,Sherlock states there has been a fourth suicide
+21,C6,Sherlock notes something different this time
+22,C1,Sherlock is informed about a new case by Lestrade.
+22,C2,"Lestrade mentions a note was left at the crime scene, which is unusual."
+22,C3,Sherlock is intrigued by the presence of a note.
+22,C4,Lestrade asks Sherlock to come to the crime scene.
+22,C5,Sherlock insists on needing an assistant.
+22,C6,Sherlock agrees to go but refuses to travel in a police car.
+22,C7,Sherlock is excited about the new case and prepares to leave.
+23,C1,John is annoyed by implications about his relationship with Sherlock.
+23,C2,Mrs. Hudson offers to make John a cup of tea.
+23,C3,John expresses frustration about his leg.
+23,C4,Mrs. Hudson insists she is not John's housekeeper.
+23,C5,John requests biscuits from Mrs. Hudson.
+23,C6,John reads a newspaper article about Beth Davenport's apparent suicide.
+23,C7,"The article mentions D.I. Lestrade and ""Serial Cults."""
+24,C1,Sherlock identifies John as an army doctor
+24,C2,Sherlock asks John if he wants to see more action
+24,C3,John eagerly agrees to join Sherlock
+24,C4,Sherlock and John leave the apartment together
+24,C5,Sherlock mentions the case of impossible suicides
+24,C6,Sherlock and John get into a taxi
+24,C7,The taxi drives off to the main road
+25,C1,Sherlock and John are in a taxi.
+25,C2,John is curious about Sherlock and asks questions.
+25,C3,Sherlock reveals they are going to a crime scene.
+25,C4,John questions Sherlock's profession.
+25,C5,Sherlock explains he is a consulting detective.
+25,C6,Sherlock deduces details about John's military background.
+25,C7,Sherlock deduces details about John's brother and his issues.
+25,C8,John is impressed by Sherlock's deductions.
+25,C9,Sherlock is surprised by John's positive reaction.
+26,C1,Sherlock and John arrive at Lauriston Gardens.
+26,C2,Sherlock asks John if he got anything wrong.
+26,C3,John reveals details about Harry and Clara's relationship.
+26,C4,Sherlock realizes Harry is John's sister.
+26,C5,John questions his role in the situation.
+26,C6,Sherlock insists there's always something to do.
+27,C1,Sherlock and John approach the police tape.
+27,C2,Sergeant Donovan greets Sherlock with hostility.
+27,C3,Sherlock states he was invited by Detective Inspector Lestrade.
+27,C4,Donovan questions Sherlock's presence and mocks him.
+27,C5,Sherlock introduces John as his colleague to Donovan.
+27,C6,Donovan informs the team via radio that Sherlock is arriving.
+27,C7,Anderson warns Sherlock not to contaminate the crime scene.
+27,C8,Sherlock deduces personal information about Donovan and Anderson.
+27,C9,Sherlock implies Donovan stayed over at Anderson's place.
+27,C10,"Sherlock and John enter the house, leaving Donovan and Anderson shocked."
+28,C1,People in costumes are parading and singing
+28,C2,Popcorn is being popped in a large machine
+28,C3,A family of four is snacking on popcorn and candy
+28,C4,Background singers describe snacks and drinks
+28,C5,On-screen text and countdown accompany the song
+29,C1,Sherlock and John enter the house on Lauriston Gardens.
+29,C2,Lestrade is putting on a coverall and asks Sherlock about John.
+29,C3,"Sherlock insists John is with him, and Lestrade accepts this."
+29,C4,John puts on a coverall as Sherlock prepares with latex gloves.
+29,C5,Lestrade leads Sherlock and John up a circular staircase.
+29,C6,Lestrade gives Sherlock and John two minutes to investigate.
+29,C7,"Lestrade provides information about the victim, Jennifer Wilson."
+29,C8,They reach the room where Jennifer Wilson's body is found.
+30,C1,"Sherlock, John, and Lestrade examine a woman's corpse in a room."
+30,C2,"Sherlock notices the word ""Rache"" scratched into the floor near the woman's hand."
+30,C3,Sherlock deduces the woman was left-handed based on her broken fingernails.
+30,C4,"Sherlock considers ""Rache"" might mean ""revenge"" in German but then reconsiders."
+30,C5,Sherlock inspects the woman's belongings and finds a wet coat and a dry umbrella.
+30,C6,Sherlock examines the woman's jewelry and deduces she was unhappily married for over 10 years.
+30,C7,Sherlock concludes the woman was a serial adulterer based on his observations.
+30,C8,Lestrade asks Sherlock if he has deduced anything from the scene.
+31,C1,Sherlock removes his gloves and stands up.
+31,C2,Anderson suggests the word 'Rache' means 'revenge' in German.
+31,C3,Sherlock closes the door on Anderson.
+31,C4,Sherlock checks his phone for information.
+31,C5,Sherlock deduces the woman is not German but intended to stay in London for one night before returning to Cardiff.
+31,C6,Lestrade questions the meaning of the message.
+31,C7,Sherlock asks John for his opinion on the message.
+32,C1,Sherlock and Lestrade discuss the investigation.
+32,C2,Lestrade reluctantly allows Sherlock to investigate the body.
+32,C3,John is asked by Sherlock to assist in examining the body.
+32,C4,John examines the body and deduces possible asphyxiation.
+32,C5,John suggests the woman might have choked on her vomit.
+32,C6,John considers the possibility of a seizure or drugs being involved.
+32,C7,Sherlock implies the woman is part of a series of suicides.
+32,C8,Lestrade urges Sherlock to provide any findings quickly.
+33,C1,Sherlock deduces the victim is a professional woman in her late thirties.
+33,C2,Sherlock infers the victim traveled from Cardiff to London for one night.
+33,C3,Sherlock concludes the victim has been married for at least ten years but not happily.
+33,C4,Sherlock deduces the victim had multiple lovers who didn't know she was married.
+33,C5,"Sherlock identifies the victim's coat is damp, indicating recent exposure to heavy rain."
+33,C6,Sherlock uses weather data to confirm the rain was in Cardiff.
+33,C7,"Sherlock deduces the victim was dragging a wheeled suitcase, which is now missing."
+33,C8,"Sherlock questions the absence of the suitcase, suggesting its importance."
+33,C9,"Sherlock identifies the victim wrote ""Rachel"" as a significant clue before dying."
+34,C1,Lestrade informs Sherlock there was no suitcase.
+34,C2,Sherlock questions police officers about the suitcase.
+34,C3,"Sherlock deduces the deaths are murders, not suicides."
+34,C4,Sherlock realizes the killer made a mistake.
+34,C5,Sherlock instructs to find Jennifer Wilson's family and friends.
+34,C6,"Sherlock identifies ""PINK"" as a clue."
+34,C7,"John observes the scene and leaves the building, unable to find Sherlock."
+35,C1,John approaches the police tape.
+35,C2,Donovan informs John that Sherlock Holmes has left.
+35,C3,"John asks if Sherlock is coming back, Donovan says it doesn't look like it."
+35,C4,"John asks Donovan where he is, and she tells him Brixton."
+35,C5,"John asks where he can get a cab due to his leg, and Donovan directs him to the main road."
+35,C6,Donovan warns John to stay away from Sherlock Holmes.
+35,C7,Donovan suggests Sherlock is a psychopath who might commit a crime.
+35,C8,"Lestrade calls Donovan away, and she reiterates her warning to John."
+35,C9,John watches Donovan leave and then starts limping toward the main road.
+36,C1,John hears a telephone ringing and stops walking.
+36,C2,John ignores the first ringing phone and continues walking.
+36,C3,"John tries to hail a taxi, but it passes him by."
+36,C4,"Another phone rings in a fast food restaurant, but it stops before answered."
+36,C5,John encounters a third ringing phone in a public telephone box.
+36,C6,John answers the phone and hears a man's voice giving instructions.
+36,C7,The man on the phone directs John to look at security cameras.
+36,C8,The cameras move away from John as he looks at them.
+36,C9,The man instructs John to get into a car that pulls up nearby.
+36,C10,"The phone call ends, and John considers his next move."
+37,C1,John is sitting in the back seat of a car.
+37,C2,An attractive young woman is sitting beside John.
+37,C3,John tries to engage the woman in conversation.
+37,C4,"The woman, Anthea, is focused on her phone."
+37,C5,Anthea reveals she knows John's name.
+37,C6,John asks about his destination.
+37,C7,Anthea indicates there's no point in asking.
+37,C8,The car arrives at an almost-empty warehouse.
+38,C1,A man in a suit is waiting for John in a warehouse.
+38,C2,"John arrives, limping and leaning on a cane."
+38,C3,"The man invites John to sit, but John refuses."
+38,C4,The man questions John about his connection to Sherlock Holmes.
+38,C5,"John claims he barely knows Sherlock, having met him only yesterday."
+38,C6,The man reveals he considers himself Sherlock's enemy.
+38,C7,"John receives a text from Sherlock, which he reads."
+38,C8,The man offers John money for information about Sherlock.
+38,C9,"John refuses the offer, asserting it's none of the man's business."
+38,C10,The man expresses concern for Sherlock and wants their relationship to remain secret.
+39,C1,"John receives a message from SH saying: ""If inconvenient, come anyway."""
+39,C2,John declines the Man's offer without hearing the figure.
+39,C3,The Man comments on John's loyalty and trust issues.
+39,C4,John is unnerved by the Man's knowledge about him.
+39,C5,The Man suggests John trusts Sherlock Holmes.
+39,C6,John questions the Man's assumptions about his trust in Sherlock.
+39,C7,The Man implies people have warned John about Sherlock.
+39,C8,The Man points out something about John's left hand.
+39,C9,John stops and confronts the Man about his left hand.
+40,C1,"John stands still and raises his left hand, wanting The Man to see it."
+40,C2,The Man approaches John and reaches for his hand.
+40,C3,"John initially pulls his hand back and tells The Man ""Don't."""
+40,C4,John reluctantly allows The Man to examine his hand.
+40,C5,"The Man observes John's hand and comments ""Remarkable."""
+40,C6,The Man discusses John's intermittent tremor and its supposed cause.
+40,C7,The Man suggests John's therapist is wrong about the cause of his tremor.
+40,C8,The Man claims John is not haunted by the war but misses it.
+40,C9,"The Man tells John ""Welcome back"" and walks away."
+40,C10,"The Man tells John it's ""Time to choose a side."""
+40,C11,John receives a text message alert as The Man walks away.
+40,C12,"Anthea exits the car and approaches John, focused on her BlackBerry."
+41,C1,Anthea tells John she is to take him home.
+41,C2,John receives a message warning of danger.
+41,C3,John checks his hand for tremors and smiles.
+41,C4,John tells Anthea his address is Baker Street.
+41,C5,John mentions needing to stop somewhere first.
+41,C6,John enters his bedsit and turns on the light.
+42,C1,John opens his desk drawer
+42,C2,John takes out his pistol
+42,C3,John checks the clip of the gun
+42,C4,John tucks the gun into his waistband
+42,C5,John turns to leave
+43,C1,Car arrives at 221B Baker Street
+43,C2,John asks Anthea not to tell her boss his location
+43,C3,Anthea admits she already informed her boss
+43,C4,John inquires about Anthea's free time
+43,C5,Anthea sarcastically responds about her free time
+43,C6,Anthea indicates John should leave
+43,C7,John exits the car and approaches 221B
+43,C8,John knocks on the door of 221B
+44,C1,Sherlock is lying on the sofa with eyes closed
+44,C2,Sherlock is pressing his arm below the elbow
+44,C3,Sherlock opens his eyes and sighs
+44,C4,John enters and asks what Sherlock is doing
+44,C5,Sherlock reveals he is using nicotine patches
+44,C6,Sherlock explains patches help him think
+44,C7,John notices Sherlock has three patches
+44,C8,"Sherlock calls it a ""three patch problem"""
+45,C1,John arrives because Sherlock asked him to come.
+45,C2,Sherlock asks to borrow John's phone to avoid his number being recognized.
+45,C3,John is frustrated because he traveled across London for a simple task.
+45,C4,Sherlock wants John to send a text to a number on his desk.
+45,C5,Sherlock mentions a case involving a suitcase taken by a murderer.
+45,C6,John is upset that he was called just to send a text.
+45,C7,Sherlock insists on the importance of sending the text.
+46,C1,John tells Sherlock he met a friend/enemy of his.
+46,C2,Sherlock is unfazed and asks which enemy.
+46,C3,John mentions the person claims to be Sherlock's arch-enemy.
+46,C4,Sherlock asks if the person offered John money to spy.
+46,C5,John confirms he was offered money but didn't take it.
+46,C6,Sherlock suggests they could have split the fee.
+46,C7,John asks who the person is.
+46,C8,Sherlock describes the person as the most dangerous man John has met.
+46,C9,Sherlock instructs John to note down a number on his desk.
+47,C1,"John looks at a piece of paper with the name ""Jennifer Wilson."""
+47,C2,John realizes Jennifer Wilson is the dead woman.
+47,C3,Sherlock instructs John to enter a number into his phone.
+47,C4,Sherlock dictates a message for John to send.
+47,C5,"John questions Sherlock about ""blacking out."""
+47,C6,Sherlock denies blacking out and urges John to send the message quickly.
+47,C7,Sherlock retrieves a pink suitcase and opens it.
+47,C8,John is shocked by the contents of the suitcase.
+48,C1,John identifies the case as Jennifer Wilson's.
+48,C2,Sherlock confirms the case belongs to Jennifer Wilson.
+48,C3,Sherlock sarcastically denies killing Jennifer Wilson.
+48,C4,John questions Sherlock about the assumption of murder.
+48,C5,Sherlock explains how he found the case.
+48,C6,Sherlock deduces the killer accidentally kept the case.
+48,C7,Sherlock describes searching for the case in back streets.
+48,C8,Sherlock finds the case in a skip.
+48,C9,John is surprised by Sherlock's deduction about the pink case.
+48,C10,Sherlock points out something missing from the case.
+49,C1,Sherlock questions the absence of a woman's phone.
+49,C2,John suggests the woman might have left her phone at home.
+49,C3,Sherlock argues the woman wouldn't leave her phone at home due to her lifestyle.
+49,C4,Sherlock and John consider the possibility that the murderer has the phone.
+49,C5,John realizes he might have texted the murderer.
+49,C6,"John's phone rings, indicating a call from a withheld number."
+49,C7,Sherlock deduces the murderer would respond to a text from the victim's phone.
+50,C1,Sherlock pauses until the phone stops ringing.
+50,C2,Sherlock tells John that four people are dead and there's no time to talk to the police.
+50,C3,Sherlock mentions Mrs. Hudson took his skull.
+50,C4,John realizes he's filling in for Sherlock's skull.
+50,C5,Sherlock prefers company and thinks better when talking aloud.
+50,C6,John is hesitant because of Sergeant Donovan's comment.
+50,C7,Sherlock dismisses the comment and leaves.
+50,C8,John decides to follow Sherlock.
