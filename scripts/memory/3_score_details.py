@@ -1,5 +1,5 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: July 30, 2025
+# Last Edited: August 22, 2025
 # Description: The script helps to generate scores for different participants of different events, for memory of central and peripheral details.
 
 import os
@@ -14,7 +14,7 @@ openai.api_key = OPENAI_API_KEY
 
 os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
 _THISDIR = os.getcwd()
-DATASET_NAME = "Sherlock" # "Filmfest" or "Sherlock"
+DATASET_NAME = "Filmfest" # "Filmfest" or "Sherlock"
 MEM_TYPE = "peripheral" # "central" or "peripheral"
 RECALL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '3_transcripts'))
 DETAIL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, f'4_details/{MEM_TYPE}_detail_list'))
@@ -198,9 +198,8 @@ def parse_table_by_event(table, event_number):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    detail_files = glob.glob(os.path.join(DETAIL_PATH, '*.csv'))
+    detail_files = glob.glob(os.path.join(DETAIL_PATH, '*context.csv'))
     detail_df = pd.read_csv(detail_files[0])
-
     recall_files = glob.glob(os.path.join(RECALL_PATH, '*.csv'))
 
     # iterate over participants （files）
@@ -210,6 +209,7 @@ if __name__ == "__main__":
         transcript_by_event = parse_recall(df)
         event_ids = [ev[0] for ev in transcript_by_event]
         number_events = len(set(event_ids))
+        print(f"{participant_id}: {number_events} events")
 
         # iterate over events
         results = []
@@ -235,7 +235,6 @@ if __name__ == "__main__":
             results.extend(output)
         
         results_df = pd.DataFrame(results)
-        results_df.to_csv(f"{SAVE_PATH}/{participant_id}_graded_{MEM_TYPE}_scores.csv", index=False)
         print(f"{participant_id} done")
         all_results.append(results_df)
     

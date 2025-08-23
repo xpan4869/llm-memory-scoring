@@ -19,61 +19,24 @@ _THISDIR = os.getcwd()
 DATASET_NAME = "Filmfest" # "Filmfest" or "Sherlock"
 DAT_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '1_annotations'))
 NUM_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/central_detail_list'))
-SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details peripheral_detail_list'))
+SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/peripheral_detail_list'))
 
 if not os.path.exists(SAVE_PATH):
     os.makedirs(SAVE_PATH)
 
 # ------------------ Define functions ------------------ #
-def generate_peripheral_details(annotation, num_details):
+def generate_peripheral_details(summary, annotation, num_details):
     prompt = f'''
     **Task:**
     You are assisting a memory researcher in analyzing a movie scene annotation to extract its **peripheral details**.
     
     ---
-
     **Definition of Peripheral Details:**
-    Peripheral details are **minor descriptive elements** that **do not affect the core storyline** but provide **enriching context**. These are small, literal features that make the scene more vivid without changing its outcome or logic.
-
-    Peripheral details may include:
-    - Character gestures, facial expressions, or emotional reactions
-    - Specific objects, body positions, or brief actions that are not plot-driving
-    - Spatial location or manner in which something is done (e.g., speed, position)
-
-    Do **not** include:
-    - Plot-driving events or important narrative shifts (those are central)
-    - Interpretive or thematic summaries
-    - Any references to **camera angles**, **scene framing**, **shots**, or **zooming**
-
+    Peripheral details are descriptive elements that enrich the narrative context but are not essential to its causal structure. They provide texture, atmosphere, or background information (e.g., setting descriptions or incidental features), yet their absence would not alter the core storyline or change character motivations.
     ---
 
-    **Reference Examples:**
-
-    **Example A: Crashing the Bicycle**
-    **Annotation:**
-    A boy and his dad are riding a bike, with the boy sitting on the handlebars. They are going down a hill. The father squeezes the brakes to slow them down. He realizes that the brakes are broken. They both scream as the bike accelerates. The dad tries to brake with his shoes, without success. They hit a tree on the side of the road at full speed and fall off the bike.
-
-    **Peripheral Details (5):**
-    * Boy sitting on the handlebars
-    * Both scream
-    * With his shoes
-    * On the side of the road
-    * At full speed
-
-    ---
-
-    **Example B: Woman Squeezing Food**
-    **Annotation:**
-    An elderly woman is in a food store, handling a peach. She squeezes the fruit so hard that it bursts and splatters her in the face. The man behind the counter gives her an angry look. Embarrassed, she vanishes down one of the aisles, while he follows her. She starts squeezing a soft cheese with her thumbs, looking delighted.
-
-    **Peripheral Details (7):**
-    * So hard
-    * In the face
-    * Behind the counter
-    * Down one of the aisles
-    * Soft (cheese)
-    * With her thumbs
-    * Looking delighted
+    **Central Storyline as Reference:**
+    \"\"\" {summary}\"\"\"
 
     ---
 
@@ -82,12 +45,18 @@ def generate_peripheral_details(annotation, num_details):
 
     ---
 
-    **Instructions:**
-    1. Read the annotation carefully.
-    2. Identify **exactly {num_details} peripheral details** that reflect **descriptive, non-essential elements** of the scene.
-    3. Each detail should be a **short, simple phrase** (a few words or one sentence maximum).
-    4. Avoid summarizing major events or plot changes — do **not include central details**.
-    5. **Do not generate more than {num_details} details.**
+    **Steps:**
+    1. Identify distinct descriptive elements that **add context but are not required to understand what happens** in the scene.
+    2. Avoid including plot-driving events, character motivations, or turning points (those are central).
+    3. Exclude interpretive summaries or technical notes (e.g., camera angles, shots, zooming).
+    4. Keep each detail **short, simple, and non-redundant**.
+    5. Extract **exactly {num_details} details** — no more, no less.
+
+    1. Identify distinct details that are **descriptive but not causally essential**.
+    2. Exclude any plot-driving events, states, or turning points (those belong in central).
+    3. Express each idea in a brief (≤10 words) form that captures its plot-relevant role.
+    4. Avoid redundancy or interpretation (no camera notes, no analysis).
+    5. Extract **exactly {num_details} details** — no more, no less.
 
     ---
 
@@ -142,19 +111,17 @@ def flatten_peripheral_data(raw_data):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    central_file = glob.glob(os.path.join(NUM_PATH, '*.csv'))
-    annotation_file = glob.glob(os.path.join(DAT_PATH, '*.csv'))
-    if annotation_file and central_file:
-        central_table = pd.read_csv(central_file[0])
-        print("Loaded:", central_file)
-        annotation = pd.read_csv(annotation_file[0])
-        print("Loaded:", annotation_file)
-    elif not central_file:
-        print("No CSV file found.")
-        exit()
-    elif not annotation_file:
-        print("NO annotation file found.")
-        exit()
+    central_files = glob.glob(os.path.join(NUM_PATH, '*_context.csv'))
+    if not central_files:
+        raise FileNotFoundError("No *_context.csv file found in NUM_PATH")
+    central_file = central_files[0]
+
+    central_table = pd.read_csv(central_file)
+
+    annotation_file = glob.glob(os.path.join(DAT_PATH, '*_annotations.csv'))[0]
+    summary_file = glob.glob(os.path.join(DAT_PATH, '*_summary.csv'))[0]
+    annotations = pd.read_csv(annotation_file)
+    summaries = pd.read_csv(summary_file)
 
     event_central_counts = defaultdict(int)
     for _, row in central_table.iterrows():
@@ -162,13 +129,23 @@ if __name__ == "__main__":
         event_central_counts[event_number] += 1
     
     peripheral_table_all = []
-    for idx, row in annotation.iterrows():
+    for idx, row in annotations.iterrows():
         event_number = row['event_number']
         annotation_text = row['annotation']
+        if 'movie_title' in annotations.columns and pd.notna(row.get('movie_title')):
+            movie_title = row['movie_title']
+            # filter summaries for that movie_title
+            match = summaries.loc[summaries["movie_title"] == movie_title, "summary"]
+            if not match.empty:
+                summary = match.iloc[0]
+            else:
+                continue
+        else:
+            summary = summaries['summary'].iloc[0]
+
         num_details = event_central_counts.get(event_number, 6)
-        peripheral_table = parse_peripheral_detail_table(generate_peripheral_details(annotation_text, num_details), event_number)
+        peripheral_table = parse_peripheral_detail_table(generate_peripheral_details(summary, annotation_text, num_details), event_number)
         peripheral_table_all.append(peripheral_table)
     
     peripheral_df = flatten_peripheral_data(peripheral_table_all)
-    peripheral_df.to_csv(f"{SAVE_PATH}/{DATASET_NAME}_balanced_peripheral_detail_table.csv", index=False)
-
+    peripheral_df.to_csv(f"{SAVE_PATH}/{DATASET_NAME}_balanced_peripheral_detail_table", index=False)

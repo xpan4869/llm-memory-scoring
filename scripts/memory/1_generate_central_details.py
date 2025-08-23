@@ -1,5 +1,5 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: July 30, 2025
+# Last Edited: August 22, 2025
 # Description: The script helps to generate a list of gists for different events from event annotations.
 
 import os
@@ -10,7 +10,7 @@ import glob
 
 # ------------------ Hardcoded parameters ------------------ #
 OPENAI_API_KEY = getpass.getpass("OpenAI API Key:")
-openai.api_key = OPENAI_API_KEY
+openai.api_key = OPENAI_API_KEY 
 
 os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
 _THISDIR = os.getcwd()
@@ -22,47 +22,18 @@ if not os.path.exists(SAVE_PATH):
     os.makedirs(SAVE_PATH)
 
 # ------------------ Define functions ------------------ #
-def generate_central_details(annotation):
+def generate_central_details(summary, annotation):
   prompt = f'''
   **Task:**
   You are assisting a memory researcher in analyzing a movie scene annotation to extract its **central details**.
 
   ---
   **Definition of Central Details:**
-
-  * A **central detail** is an event or fact that is **causally or narratively essential** to understanding the scene.
-  * These details are **plot-driving**: if removed, the meaning, sequence, or logic of the story would break down.
-  * Central details can be **concrete or abstract**, but they must convey **key events**, **motivations**, or **outcomes**.
-  * Avoid including **peripheral details** — sensory descriptions, background setting, or minor actions that do not impact the core story logic.
+    Central details are causally essential elements of a narrative that sustain the storyline. They include information that drives the plot forward, explains character motivations, or marks turning points in the story. Without these details, the coherence or progression of the narrative would be disrupted.
   ---
 
-  **Reference Examples:**
-
-  **Example A: Crashing the Bicycle**
-  **Annotation:**
-  A boy and his dad are riding a bike, with the boy sitting on the handlebars. They are going down a hill. The father squeezes the brakes to slow them down. He realizes that the brakes are broken. They both scream as the bike accelerates. The dad tries to brake with his shoes, without success. They hit a tree on the side of the road at full speed and fall off the bike.
-
-  **Central Details (5):**
-
-  * Man and boy on bicycle going down a hill
-  * Man finds out brakes don’t work
-  * Man tries to slow down
-  * They crash into tree
-  * They fall off of bike
-
-  **Example B: Woman Squeezing Food**
-  **Annotation:**
-  An elderly woman is in a food store, handling a peach. She squeezes the fruit so hard that it bursts and splatters her in the face. The man behind the counter gives her an angry look. Embarrassed, she vanishes down one of the aisles, while he follows her. She starts squeezing a soft cheese with her thumbs, looking delighted.
-
-  **Central Details (7):**
-
-  * Woman in grocery store
-  * Woman is squeezing a peach
-  * Woman squeezes so hard juice squirts out
-  * Cashier is angry/surprised
-  * Woman runs away
-  * Cashier follows her
-  * Woman squeezes cheese
+  **Central Storyline as Reference:**
+  \"\"\" {summary}\"\"\"
 
   ---
 
@@ -72,9 +43,11 @@ def generate_central_details(annotation):
   ---
 
   **Steps:**
-  1. Identify distinct events or facts that are **essential for understanding what happens** in the scene.
-  2. Avoid including background descriptions, visual modifiers, or minor emotional/sensory additions.
-  3. Keep each idea **simple**, **non-redundant**, and focused on narrative flow.
+  1. Extract only details that are **causally essential** (plot-relevant).
+  2. Exclude descriptive or atmospheric elements that enrich context but do not alter the storyline.
+  3. Express each idea in a brief (≤10 words) form that captures its plot-relevant role.
+  4. Keep them **non-redundant** and focused on the **narrative skeleton**.
+
 
   ---
 
@@ -128,19 +101,28 @@ def flatten_central_data(raw_data):
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
     csv_files = glob.glob(os.path.join(DAT_PATH, '*.csv'))
-    if csv_files:
-        annotation_file = csv_files[0]
-        annotation = pd.read_csv(annotation_file)
-        print("Loaded:", annotation_file)
-    else:
-        print("No CSV file found.")
-        exit()
+    annotation_file = glob.glob(os.path.join(DAT_PATH, '*_annotations.csv'))[0]
+    summary_file = glob.glob(os.path.join(DAT_PATH, '*_summary.csv'))[0]
+    annotations = pd.read_csv(annotation_file)
+    summaries = pd.read_csv(summary_file)
 
     central_tables_all = []
-    for idx, row in annotation.iterrows():
+    for idx, row in annotations.iterrows():
         event_number = row['event_number']
         annotation_text = row['annotation']
-        central_table = parse_central_detail_table(generate_central_details(annotation_text), event_number)
+
+        if 'movie_title' in annotations.columns and pd.notna(row.get('movie_title')):
+            movie_title = row['movie_title']
+            # filter summaries for that movie_title
+            match = summaries.loc[summaries["movie_title"] == movie_title, "summary"]
+            if not match.empty:
+                summary = match.iloc[0]
+            else:
+                continue
+        else:
+            summary = summaries['summary'].iloc[0]
+        
+        central_table = parse_central_detail_table(generate_central_details(summary, annotation_text), event_number)
         central_tables_all.append(central_table)
 
     central_df = flatten_central_data(central_tables_all)

@@ -1,465 +1,297 @@
 event_number,central_id,central_content
-1.0,C1,"The show is called ""To Tell the Truth."""
-1.0,C2,Three men walk through yellow walls as they open.
-1.0,C3,Each man claims to be Frank William Abagnale.
-1.0,C4,The host describes Frank William Abagnale's impersonations and cons.
-1.0,C5,"Frank William Abagnale impersonated an airline pilot, pediatrician, and attorney general."
-1.0,C6,He cashed almost 4 million dollars in fraudulent checks.
-1.0,C7,He was considered the youngest and most daring con-man in US history.
-1.0,C8,The host reveals his name is Frank William Abagnale.
-1.0,C9,The audience applauds as the three men take their seats.
-2.0,C1,Host announces the man must tell the truth
-2.0,C2,Kitty begins questioning the man
-2.0,C3,Kitty asks the man why he didn't choose a legitimate profession
-2.0,C4,Man explains he chose his career for financial reasons
-2.0,C5,Kitty acknowledges the man's response
-2.0,C6,Kitty asks the second man who caught him
-2.0,C7,Second man reveals he was caught by Carl Hanratty
-3.0,C1,Carl is standing in the rain with 6 other men
-3.0,C2,The men are speaking French
-3.0,C3,"They are trying to pronounce ""Carl Hanratty"""
-3.0,C4,Carl identifies himself as an FBI agent
-3.0,C5,Carl requests to see the American prisoner Abagnale
-4.0,C1,Jailer appears with Carl and unlocks the door
-4.0,C2,Hanratty follows jailer into a room
-4.0,C3,Jailer sets a stool and instructs Carl to sit
-4.0,C4,Jailer lays out rules for Carl
-4.0,C5,Jailer opens a hole in the wall
-4.0,C6,Jailer instructs not to open the door or pass items through the hole
-4.0,C7,Jailer walks away to talk to another jailer
-4.0,C8,Carl goes to put his briefcase down
-5.0,C1,Carl kneels and peers through a grate into the cell
-5.0,C2,"Carl talks to the prisoner, Frank, who is coughing"
-5.0,C3,Carl reads the law regarding extradition to Frank
-5.0,C4,Frank repeatedly asks for help
-5.0,C5,Carl accuses Frank of trying to fool him
-5.0,C6,Frank collapses to the floor
-5.0,C7,Carl calls for a doctor urgently
-6.0,C1,Frank is being dragged by jailers through a hallway
-6.0,C2,Carl tells Frank they will get him to a doctor
-6.0,C3,Guards take Frank to a hospital bed
-6.0,C4,Carl insists Frank needs to be on a plane to America
-6.0,C5,Carl warns jailer he will be held responsible if Frank dies
-6.0,C6,Jailer discovers Frank's bed is empty
-6.0,C7,Jailers leave to chase after Frank
-7.0,C1,Frank is stumbling and coughing
-7.0,C2,Frank falls multiple times
-7.0,C3,Guards appear and approach Frank
-7.0,C4,Guard puts a gun to Frank's head
-7.0,C5,Frank laughs and speaks to Carl
-7.0,C6,"Frank says, ""Ok Carl, let's go home"""
-8.0,C1,Woman sitting on bed opens pizza box
-8.0,C2,Woman is interrupted by a knock at the door
-8.0,C3,Woman finds an envelope on the floor
-8.0,C4,Woman opens the envelope
-8.0,C5,Inside the envelope is a vinyl
-8.0,C6,"Vinyl says ""a single life"" on it"
-9.0,C1,Woman puts vinyl on record player and turns it on
-9.0,C2,Woman notices pizza slice appears half-eaten after flash of white
-9.0,C3,"Woman stops and restarts record, pizza becomes whole again"
-9.0,C4,"Woman experiments with record, causing pizza slices to disappear and reappear"
-9.0,C5,Woman realizes record player affects reality and has an idea
-10.0,C1,Woman is in a green and white room
-10.0,C2,Woman realizes she is pregnant
-10.0,C3,Woman holds her stomach happily
-10.0,C4,Woman uses record player to manipulate time
-10.0,C5,Baby appears in her arms
-10.0,C6,Baby starts crying
-10.0,C7,Woman gets angry and adjusts the record player
-11.0,C1,Woman transforms into a little girl
-11.0,C2,Little girl is in a room with a crib
-11.0,C3,Little girl holds a doll
-11.0,C4,Little girl throws down the doll
-11.0,C5,Little girl walks to the record player
-11.0,C6,Little girl tries to pick up the needle
-11.0,C7,Little girl successfully moves the needle
-12.0,C1,Woman is now old and in a wheelchair
-12.0,C2,Woman has a broken leg
-12.0,C3,Woman is flung back from the record player
-12.0,C4,"Record skips, causing her to be flung back"
-12.0,C5,Woman is determined and tries to move forward
-12.0,C6,Woman loses balance and falls backwards
-12.0,C7,"Record player shakes, and needle moves again"
-13.0,C1,Woman is older and in a nursing home
-13.0,C2,Woman sits up and looks around
-13.0,C3,Woman notices the record player
-13.0,C4,Woman tries to reach the record player quickly
-13.0,C5,Needle on the record moves toward the end
-13.0,C6,Woman disappears as an urn falls to the floor
-13.0,C7,Walker topples in the background
-13.0,C8,Needle on the record creaks and moves aside
-14.0,C1,Man and woman are eating at a table
-14.0,C2,Woman gets up to pour wine
-14.0,C3,Man declines the wine
-14.0,C4,Woman sits back down
-15.0,C1,Woman mentions it's their anniversary
-15.0,C2,Man says he can't drink because he's on call
-15.0,C3,Woman drinks and pours herself another glass
-15.0,C4,Man comments on the tenderness of the asparagus
-15.0,C5,Woman mentions asparagus as an aphrodisiac
-15.0,C6,Man questions who says asparagus is an aphrodisiac
-15.0,C7,"Woman responds vaguely about ""people"" saying it"
-15.0,C8,Man asks woman about her day
-16.0,C1,Woman throws her drink at the man
-16.0,C2,Woman tells the man to relax
-16.0,C3,Woman criticizes the man's profession
-16.0,C4,Man is covered in wine
-16.0,C5,Woman wipes her hands on a napkin
-17.0,C1,Man takes out a lighter
-17.0,C2,Woman tells man not to smoke
-17.0,C3,Man lights a cigarette
-17.0,C4,Woman grabs cigarette and puts it out
-17.0,C5,Man lights another cigarette
-17.0,C6,Woman sarcastically comments on passive smoke
-17.0,C7,Woman sarcastically comments on conversation and sex
-18.0,C1,Woman apologizes to the man
-18.0,C2,Woman approaches the man
-18.0,C3,Woman sits on the man's lap and hugs him
-18.0,C4,"Woman reassures the man by saying ""there, there"""
-18.0,C5,Woman tells the man she didn't mean what she said before hugging him again
-19.0,C1,Woman reveals a switch on the man's neck
-19.0,C2,Woman flicks the switch off
-19.0,C3,Man's head lolls forward
-19.0,C4,Woman moves the man aside
-19.0,C5,Woman takes her seat and puts feet on the table
-19.0,C6,"Woman says, ""happy anniversary"""
-20.0,C1,"Woman is using a computer to navigate a site called ""Prometeus Robotics Choose Everlasting Love"""
-20.0,C2,Woman is looking at pictures of six men on the screen
-20.0,C3,Woman calls technical support and speaks to Rachel
-20.0,C4,"Woman is unsatisfied with her current unit, a 100 series"
-20.0,C5,Woman describes the unit's lack of ambition and adventure
-20.0,C6,Rachel suggests upgrading to a higher model
-20.0,C7,"Woman expresses preferences for a new model, including a rock-climbing masseuse with specific physical traits"
-21.0,C1,Woman opens the door to delivery women
-21.0,C2,"Delivery women bring in a box labeled ""Prometeus Robotics"""
-21.0,C3,Man in plastic wrap is uncovered by delivery women
-21.0,C4,Woman recognizes the man as someone she described earlier
-21.0,C5,Woman's previous partner is wheeled out by delivery women
-21.0,C6,Woman transfers ring from old partner to new man
-21.0,C7,"Woman turns on the switch on the new man's neck, activating him"
-22.0,C1,Woman offers man a glass of wine
-22.0,C2,Man declines wine due to a big climb tomorrow
-22.0,C3,Man comments on the tenderness of asparagus
-22.0,C4,Man mentions asparagus as an aphrodisiac
-22.0,C5,Woman questions who says asparagus is an aphrodisiac
-22.0,C6,"Man responds he doesn't know, just what people say"
-22.0,C7,Man gets up from his chair
-23.0,C1,Man gives woman a shoulder massage
-23.0,C2,Man asks woman about her day
-23.0,C3,"Woman describes her day, including going to town and having lunch with Anna"
-23.0,C4,Woman mentions it's their anniversary
-23.0,C5,Woman's face goes blank
-23.0,C6,Man turns off a switch at the back of woman's neck
-23.0,C7,Woman's head hangs forward
-24.0,C1,Man takes a bottle of wine
-24.0,C2,Man walks away
-24.0,C3,Man sits on the sofa
-24.0,C4,Man lights a cigarette
-24.0,C5,Man switches on the TV
-24.0,C6,Man smokes with a blank face
-25.0,C1,Shoe is lying flat on the sidewalk
-25.0,C2,"Text ""how they get there"" appears and disappears"
-25.0,C3,Shoe moves upright and taps to the music
-25.0,C4,Shoe stops tapping when a candy wrapper falls
-25.0,C5,Shoe starts tapping again
-26.0,C1,Man opens a milk carton
-26.0,C2,Man drinks milk while watching a woman
-26.0,C3,Another man approaches and gestures angrily
-26.0,C4,First man falls and backs away from the car
-26.0,C5,Second man gets into the car
-26.0,C6,"First man walks away, looking at the woman"
-27.0,C1,Man trips on the sidewalk while looking at the woman
-27.0,C2,Woman mimics the man's tripping motion
-27.0,C3,Man places milk carton on fence and watches woman
-27.0,C4,Woman mimics man's arm-swinging motion
-27.0,C5,Woman ducks under billboard box and does turkey motions
-27.0,C6,Man copies woman's turkey motions
-27.0,C7,Woman pretends to hurt and holds her head
-27.0,C8,Man continues into intersection copying woman
-27.0,C9,Woman gestures frantically as man walks into street
-27.0,C10,"Man is hit by a car, breaking its windshield"
-28.0,C1,Man is on the car's windshield
-28.0,C2,Woman averts her eyes
-28.0,C3,Car swerves and hits a bump
-28.0,C4,Car flies into the air and lands on its side
-28.0,C5,Car breaks
-28.0,C6,Woman is shocked
-28.0,C7,Shoe falls through the air
-28.0,C8,Shoe lands on the pavement
-28.0,C9,Another beaten-up shoe is on the floor
-29.0,C1,A blue car drives across the screen
-29.0,C2,Car pulls up to a tall black building
-29.0,C3,Screen goes black
-29.0,C4,"Words ""Keith Reynolds can't make it tonight"" appear in white text"
-30.0,C1,Keith Reynolds gets out of the car and puts on a hat.
-30.0,C2,Keith walks toward the building with a briefcase.
-30.0,C3,Narrator introduces Keith and mentions it's promotion day.
-30.0,C4,Keith enters the building and heads to the elevator.
-30.0,C5,Narrator explains Keith has worked there for 8 years and is a senior junior analyst.
-30.0,C6,Narrator mentions Keith has been waiting for this day for a long time.
-30.0,C7,Narrator says the promotion is important because it means Sarah will like him.
-30.0,C8,Keith makes Sarah a cup of coffee and offers it to her.
-30.0,C9,"Sarah dumps the coffee out the window, hitting a man on a ladder."
-30.0,C10,Narrator notes Keith always makes Sarah a cup anyway.
-31.0,C1,Man falls outside
-31.0,C2,Narrator mentions the second floor
-31.0,C3,Bill sees something fall past the window
-31.0,C4,Bill gets up and looks out the window
-31.0,C5,Bill phones an ambulance
-32.0,C1,"Keith rides the elevator up, thinking about a handshake and signing a document."
-32.0,C2,"Patrick Campbell, a green man, rides the elevator down after receiving good news."
-32.0,C3,Patrick gets off at Sarah's floor to share his news.
-32.0,C4,"Patrick experienced a weaker handshake than expected, indicating the promotion went to someone else."
-32.0,C5,Keith heads to the same floor as Patrick and Sarah.
-32.0,C6,"Keith sees Patrick and Sarah kissing, dropping his briefcase in shock."
-33.0,C1,Keith watches Patrick and Sarah kissing
-33.0,C2,Patrick asks Keith to hold the elevator door
-33.0,C3,Keith and Patrick ride the elevator together
-33.0,C4,Keith accidentally says something as he exhales
-33.0,C5,Patrick turns around and starts punching Keith
-33.0,C6,Keith fights back and beats Patrick up
-33.0,C7,Keith realizes he has killed Patrick Cambell
-34.0,C1,Ruth needs the toilet and heads to the stairs
-34.0,C2,Keith decides to take Patrick's body home
-34.0,C3,Keith drags Patrick's body towards the stairs
-34.0,C4,Ruth encounters Keith on the stairs
-34.0,C5,Ruth falls down the stairs and lands with a crack
-34.0,C6,Keith is careful not to step in Ruth's blood
-35.0,C1,Sarah goes to see Patrick on the fourth floor
-35.0,C2,Keith uses a ladder to avoid ground floor security
-35.0,C3,Sarah sees Keith and drops what she was holding
-35.0,C4,Narrator describes Keith's thoughts about Sarah
-35.0,C5,Sarah faints
-35.0,C6,"Keith slumps over, thinking about dead bodies' effect on women"
-36.0,C1,Keith climbs out the window onto the ladder
-36.0,C2,Keith pulls Patrick up
-36.0,C3,"Keith pulls too hard, and Patrick falls outside"
-36.0,C4,Keith falls but catches himself on the ladder
-36.0,C5,Janitor sees Keith
-36.0,C6,Narrator reflects on Keith's thoughts
-37.0,C1,Scene starts underwater
-37.0,C2,Camera pans up to a mountain with large eyes
-37.0,C3,Amphibious animal jumps out of the water onto a rock
-37.0,C4,Mountain watches everything and closes its eyes
-37.0,C5,"Time passes, scenery changes from dinosaurs to ice age with mammoths"
-37.0,C6,"Ice glacier severs the mountain, head rolls and becomes a boulder"
-37.0,C7,"More time passes, trees and greenery grow around and on the remaining rock"
-38.0,C1,"Something hits the rock, and it growls"
-38.0,C2,Man cuts down a tree on top of the rock
-38.0,C3,Rock is disturbed by humans cutting wood
-38.0,C4,Rock gets up and moves to a new location
-38.0,C5,Rock finds a place to sleep by a cliff
-38.0,C6,Rock is tied and transported by humans
-38.0,C7,Rock is chiseled and used in a mill
-38.0,C8,Rock is used to grind flour
-39.0,C1,Soldiers bust down the door to the mill
-39.0,C2,Soldiers take the rock to a factory
-39.0,C3,Machinery breaks and shaves the rock
-39.0,C4,Soldier loads the rock as a cannonball into a cannon
-39.0,C5,Soldiers fire the cannon
-39.0,C6,Rock breaks a ship's mast and shatters into pieces
-39.0,C7,Rock falls into the water and is pulled by the current onto a shore
-40.0,C1,Rock walks along a path
-40.0,C2,Rock finds a glove near a house
-40.0,C3,Human picks up the rock
-40.0,C4,Human discovers a fossil within the rock
-40.0,C5,Human puts the rock in a box and walks away
-41.0,C1,A camera takes a picture with a crowd gathered around
-41.0,C2,The rock is on public display for its fossil
-41.0,C3,The rock is in a museum
-41.0,C4,"A kid presses his face to the glass, shaking the cage"
-41.0,C5,The rock tumbles backwards and falls into a pipe
-41.0,C6,The rock falls into a trash can being rolled by a janitor
-41.0,C7,"The janitor stops, looks around, and then continues"
-42.0,C1,Janitor throws trash onto the street
+1.0,C1,Three men claim to be Frank Abagnale.
+1.0,C2,Frank Abagnale is a legendary impostor.
+1.0,C3,Frank impersonated a Pan Am pilot.
+1.0,C4,Frank was a chief resident pediatrician.
+1.0,C5,Frank was an assistant attorney general.
+1.0,C6,Frank cashed $4 million in fraudulent checks.
+1.0,C7,Frank was caught before his nineteenth birthday.
+2.0,C1,Game show host prompts truth-telling.
+2.0,C2,Kitty questions man about career choice.
+2.0,C3,Man 2 reveals Carl Hanratty caught him.
+3.0,C1,Carl arrives to see Frank Abagnale
+3.0,C2,Carl identifies himself to French officials
+4.0,C1,Carl enters prison with jailer
+4.0,C2,Jailer sets rules for Carl
+4.0,C3,Carl prepares to meet Frank
+5.0,C1,Carl kneels to see Frank.
+5.0,C2,Frank pretends to be ill.
+5.0,C3,Carl doubts Frank's act.
+5.0,C4,Frank collapses on floor.
+5.0,C5,Carl calls for a doctor.
+6.0,C1,Frank is taken to a hospital bed.
+6.0,C2,Carl insists Frank needs a doctor.
+6.0,C3,Frank escapes from the hospital bed.
+6.0,C4,Jailers chase after Frank.
+7.0,C1,Frank stumbles and coughs.
+7.0,C2,Guards catch up to Frank.
+7.0,C3,"Frank says, ""Let's go home."""
+8.0,C1,Woman receives a vinyl record
+8.0,C2,"Vinyl titled ""A Single Life"""
+9.0,C1,Woman plays vinyl on record player
+9.0,C2,Pizza slice appears half-eaten
+9.0,C3,Record controls time
+9.0,C4,Pizza becomes whole when rewound
+9.0,C5,All slices disappear when fast-forwarded
+9.0,C6,Woman realizes record's power
+10.0,C1,Woman discovers she's pregnant
+10.0,C2,Manipulates record to alter pregnancy
+10.0,C3,Baby appears in her arms
+10.0,C4,"Baby cries, woman reacts angrily"
+10.0,C5,Adjusts record needle again
+11.0,C1,Woman becomes a little girl
+11.0,C2,Girl shocked by transformation
+11.0,C3,Girl moves record needle
+12.0,C1,Woman becomes old with gray hair
+12.0,C2,Record player flings her back
+12.0,C3,She is surprised and disappointed
+12.0,C4,"Record skips, preventing her movement"
+12.0,C5,She becomes angry and determined
+12.0,C6,She falls backwards
+12.0,C7,Needle moves on the record player
+13.0,C1,Woman realizes song is almost over
+13.0,C2,She rushes to the record player
+13.0,C3,Needle reaches record's end
+13.0,C4,"Woman disappears, leaving an urn"
+14.0,C1,Man refuses wine at dinner
+14.0,C2,Woman sits back down
+15.0,C1,Woman mentions their anniversary.
+15.0,C2,Man refuses wine due to work.
+15.0,C3,Conversation becomes strained.
+16.0,C1,Woman throws drink at man
+16.0,C2,Woman mocks man's seriousness
+16.0,C3,Woman tells man to relax
+17.0,C1,Man lights a cigarette.
+17.0,C2,Woman protests smoking in her house.
+17.0,C3,Woman puts out man's cigarette.
+17.0,C4,Man lights another cigarette.
+17.0,C5,Woman sarcastically comments on passive smoke.
+17.0,C6,Woman mentions stilted conversation.
+17.0,C7,Woman references mechanical sex.
+18.0,C1,Woman apologizes to partner
+18.0,C2,Woman embraces partner
+18.0,C3,Woman says she didn't mean it
+19.0,C1,Woman reveals switch on man's neck
+19.0,C2,Woman switches man off
+19.0,C3,Man's head becomes limp
+19.0,C4,"Woman says, ""Happy anniversary"""
+20.0,C1,"Woman uses ""Prometeus Robotics"" site."
+20.0,C2,She is unsatisfied with current robot.
+20.0,C3,"Current model is the ""100 series."""
+20.0,C4,Model lacks ambition and adventure.
+20.0,C5,She requests a more adventurous model.
+20.0,C6,Desires a rock-climbing masseuse.
+21.0,C1,Delivery of new robot partner
+21.0,C2,Woman watches new partner revealed
+21.0,C3,Old partner wheeled out
+21.0,C4,Woman transfers ring to new partner
+21.0,C5,Activates new partner's switch
+22.0,C1,"Man refuses wine, citing work."
+22.0,C2,Conversation becomes strained.
+23.0,C1,Man massages woman's shoulders
+23.0,C2,Woman describes her day
+23.0,C3,Man asks about her day
+23.0,C4,Woman's face goes blank
+23.0,C5,Man switches off woman
+24.0,C1,"Man refuses wine, citing work."
+24.0,C2,Man smokes despite her protests.
+24.0,C3,Woman switches off humanoid partner.
+25.0,C1,Shoe moves upright
+25.0,C2,Shoe taps to music beat
+26.0,C1,Man drinks milk from carton
+26.0,C2,Man watches woman across street
+26.0,C3,Man trips and backs away from car
+26.0,C4,Other man gets into the car
+27.0,C1,Man trips while looking at woman
+27.0,C2,Woman mimics man's tripping motion
+27.0,C3,Man distracted by woman's gestures
+27.0,C4,Man walks into intersection
+27.0,C5,"Woman shocked, gestures frantically"
+27.0,C6,Man copies woman's gestures
+27.0,C7,Man hit by car
+28.0,C1,Man on car's windshield
+28.0,C2,Car swerves and jumps
+28.0,C3,Car lands and breaks
+28.0,C4,"Woman shocked, looks up"
+28.0,C5,Shoe falls through the air
+28.0,C6,Shoe lands beside another shoe
+29.0,C1,Keith is unavailable tonight.
+30.0,C1,Keith Reynolds introduced
+30.0,C2,Promotion day for Keith
+30.0,C3,Keith hopes promotion impresses Sarah
+30.0,C4,Keith makes coffee for Sarah
+30.0,C5,Sarah dumps coffee out window
+31.0,C1,Bill sees something fall
+31.0,C2,Bill phones an ambulance
+32.0,C1,"Keith rides elevator, imagines promotion."
+32.0,C2,Patrick receives promotion instead of Keith.
+32.0,C3,Patrick heads to tell Sarah the news.
+32.0,C4,Keith sees Patrick and Sarah kissing.
+33.0,C1,Keith watches Patrick and Sarah kiss.
+33.0,C2,Patrick asks Keith to hold elevator.
+33.0,C3,Keith and Patrick enter elevator together.
+33.0,C4,Keith accidentally insults Patrick.
+33.0,C5,Patrick attacks Keith in elevator.
+33.0,C6,Keith fights back and kills Patrick.
+33.0,C7,Keith realizes he needs quick thinking.
+34.0,C1,Keith decides to take Patrick home
+34.0,C2,Keith drags Patrick's body
+34.0,C3,Ruth encounters Keith on stairs
+34.0,C4,Ruth falls and dies accidentally
+34.0,C5,Keith avoids Ruth's blood
+35.0,C1,Sarah heads to see Patrick
+35.0,C2,Keith avoids security via ladder
+35.0,C3,Sarah sees Keith
+35.0,C4,Sarah faints upon seeing Keith
+36.0,C1,Keith climbs out the window.
+36.0,C2,Keith pulls Patrick up.
+36.0,C3,Patrick falls to the ground.
+36.0,C4,Keith catches himself on the ladder.
+36.0,C5,Janitor sees Keith on the ladder.
+37.0,C1,Mountain with eyes blinks
+37.0,C2,Mountain observes time passing
+37.0,C3,Ice glacier severs mountain
+37.0,C4,Mountain head becomes a boulder
+37.0,C5,Boulder remains as trees grow
+38.0,C1,Rock hit by man cutting tree
+38.0,C2,Rock disturbed by humans cutting wood
+38.0,C3,Rock moves to find new resting place
+38.0,C4,Rock tied and taken by humans
+38.0,C5,Rock transported on a cart
+38.0,C6,Rock chiseled and used in a mill
+38.0,C7,Rock used to grind flour
+39.0,C1,Soldiers take rock to a factory
+39.0,C2,Rock broken and shaped into cannonball
+39.0,C3,Cannonball loaded and fired
+39.0,C4,Rock shatters and falls into water
+39.0,C5,Rock pulled by current to shore
+40.0,C1,Rock is picked up by a human
+40.0,C2,Human finds a fossil in the rock
+40.0,C3,Human puts rock in a box
+41.0,C1,Rock on public display in museum
+41.0,C2,"Kid shakes glass, rock tumbles"
+41.0,C3,Rock falls into trash can
+41.0,C4,Janitor continues with trash can
+42.0,C1,Fossil thrown onto the street
 42.0,C2,Fossil breaks into pieces
-42.0,C3,Man kicks fossil and throws it through a window
-42.0,C4,"Fossil hits a man's face, then a piano, and rolls through another window"
-42.0,C5,Fossil bounces and falls into the street
-42.0,C6,Fossil is hit by a truck and lodged in its engine
-42.0,C7,Truck's gears grind the fossil and shoot it onto the road
-42.0,C8,Fossil is crushed by a road roller
-42.0,C9,Fossil becomes a pebble among dust and sand
-43.0,C1,Rock ends up among other rocks and debris
-43.0,C2,Rock is swept off the road by a man
-43.0,C3,Rock falls into a sand pile on the beach
-43.0,C4,Rock pulls itself out of the sand
-43.0,C5,Rock is picked up by an excavator crane
-43.0,C6,Excavator moves sand and dumps it into a truck
-44.0,C1,Rock is poured onto a conveyor belt
-44.0,C2,Rock is heated up
-44.0,C3,Rock falls into a molten pot
-44.0,C4,Rock is pressed into glass
-44.0,C5,Two humans hover over the rock
-44.0,C6,Humans cover the rock with something
-45.0,C1,Rocket launches into space
-45.0,C2,Rocket disassembles into a telescope
-45.0,C3,Humans in control room applaud successful launch
-45.0,C4,Rocket hits an asteroid and veers off course
-45.0,C5,Rocket accelerates toward a planet and heats up
-45.0,C6,Rocket lands on the surface of the moon
-45.0,C7,"Landscape changes over time, forming a mountain with plants and water"
-46.0,C1,Man approaches maid outside a cafe
-46.0,C2,Man asks maid about the name of the place
-46.0,C3,Maid indicates man is new to the area
-46.0,C4,Man inquires about the location
-46.0,C5,Maid tells man they are in a village
-46.0,C6,Man asks about the police station
-46.0,C7,Maid informs man there is no police station
-46.0,C8,Man asks to use a phone
-46.0,C9,Maid says there is no phone available
-46.0,C10,Maid mentions a phone box around the corner
-46.0,C11,Man thanks maid and leaves quickly
-47.0,C1,Man walks along the street and stops
-47.0,C2,Man turns and walks toward a bulletin board
-47.0,C3,Man picks up an L-shaped phone device
-47.0,C4,Phone asks for a number
-47.0,C5,Man tries to make a call without a number
-47.0,C6,Phone refuses call due to lack of number
-47.0,C7,Man puts down the phone
-48.0,C1,Man walks to a village map
-48.0,C2,"Man interacts with a sign that says ""push and find out"""
-48.0,C3,Sound of a car engine revving starts
-48.0,C4,Woman in a golf cart appears
-48.0,C5,Woman asks the man where he wants to go
-48.0,C6,Man requests to be taken to the mayor's town
-48.0,C7,Woman explains they are only a local service
-48.0,C8,Man gets in the car and asks to be taken as far as possible
-48.0,C9,Car starts moving
-49.0,C1,Man asks driver why she spoke in French
-49.0,C2,Woman explains French is international
-49.0,C3,Man questions the name of the place
-49.0,C4,Woman suggests the area is cosmopolitan
-49.0,C5,Car stops outside a store
-49.0,C6,Woman tells man the charge is 2 credit units
-49.0,C7,"Woman drives off after saying ""be seeing you"""
-49.0,C8,Man walks toward the store and goes inside
-50.0,C1,Man enters the general store
-50.0,C2,Clerk is speaking in another language
-50.0,C3,Clerk asks woman to bring a pineapple
-50.0,C4,Clerk thanks woman in English
-50.0,C5,Clerk gives woman her bag
-50.0,C6,"Clerk says ""be seeing you"" with a gesture"
-50.0,C7,Man looks confused
-51.0,C1,Cashier greets the man and asks what he needs
-51.0,C2,Man requests a map of the area
-51.0,C3,Cashier offers a black and white map
-51.0,C4,Man asks for a larger map
-51.0,C5,Cashier explains only local maps are available
-51.0,C6,Man inquires about self-drive cars
-51.0,C7,Cashier informs there are only taxis available
-51.0,C8,"New customer enters, and cashier greets them"
-51.0,C9,Man leaves the store
-52.0,C1,Man in an office with a copy machine
-52.0,C2,"Man presses button on copy machine, but it doesn't work"
-52.0,C3,Man kicks the machine
-52.0,C4,Machine prints out a paper with a black circle
-52.0,C5,Man picks up the paper and puts it aside
-52.0,C6,Man opens and closes the top of the machine
-52.0,C7,Man looks at his wristwatch
-53.0,C1,Man picks up a cup and drinks from it
-53.0,C2,Cup disappears after being put down
-53.0,C3,Man becomes suspicious and examines the paper
-53.0,C4,Man puts hand into black hole and retrieves cup
-53.0,C5,Man holds up the black hole paper
-53.0,C6,Man puts hand through the black hole again
-53.0,C7,Man laughs quietly after interacting with the black hole
-54.0,C1,Man uses black hole on vending machine
-54.0,C2,Man takes snack through the black hole
-54.0,C3,Man eats candy and looks at black hole
-54.0,C4,Man notices a door
-54.0,C5,Man walks toward the door
-55.0,C1,Man opens the door and switches on the light
-55.0,C2,Man uses black hole to access the safe
-55.0,C3,Man reaches into the safe and pulls out cash
-55.0,C4,Man repeatedly grabs cash from the safe
-55.0,C5,Man climbs fully through the black hole
-55.0,C6,Tape holding the black hole gives out
-55.0,C7,Man becomes trapped inside the safe
-55.0,C8,Camera zooms out as man bangs on the door
-56.0,C1,Woman is at an office using a copy machine
-56.0,C2,Man is using a copy machine across a divider
-56.0,C3,Man and woman work in sync with the copiers
-56.0,C4,Both notice the machines are out of paper
-56.0,C5,They refill the machines at the same time
-56.0,C6,Man notices the woman when they stand up
-56.0,C7,They lock eyes and look back down
-56.0,C8,Woman smiles shyly
-57.0,C1,Man notices a blue paper on his desk
-57.0,C2,Man opens paper to find smiley face made of post-it notes
-57.0,C3,Man sees woman looking at him
-57.0,C4,Woman quickly ducks into her cubicle
-57.0,C5,Man smiles at the post-it notes
-58.0,C1,Woman appears by a desk
-58.0,C2,Woman rolls up blinds and sees sun made of post-it notes on window
-58.0,C3,Woman sits in chair and bites her nails
-58.0,C4,Man is in bathroom straightening his tie
-58.0,C5,Man sees thought bubble with heart made of post-its in mirror
-58.0,C6,Man smiles at the thought bubble
-59.0,C1,Woman enters a room and turns on the light
-59.0,C2,Woman finds post-it flowers on the closet wall
-59.0,C3,Woman exits closet with piles of post-its
-59.0,C4,Woman sees man making a post-it mural of their faces
-59.0,C5,Man is making her pink hairclip
-59.0,C6,Man turns to face the woman
-59.0,C7,Woman smiles with tears in her eyes
-60.0,C1,Man is standing at a bus stop
-60.0,C2,Man is holding a melting tub of strawberry ice cream
-60.0,C3,Black SUV screeches to a stop across from the man
-60.0,C4,Woman gets out of the SUV and runs to a payphone
-60.0,C5,Woman dials numbers into the payphone
-60.0,C6,Woman slams the phone down in frustration
-61.0,C1,Woman approaches man as her car rolls away
-61.0,C2,Woman asks to borrow man's phone
-61.0,C3,Man gives woman his phone
-61.0,C4,"Woman makes a call, saying ""I'm here"""
-61.0,C5,Woman threatens to go to the police
-61.0,C6,Woman throws the phone on the pavement
-61.0,C7,Man walks towards the woman
-62.0,C1,Woman is crying with hands on face
-62.0,C2,Man is kneeling with a broken phone
-62.0,C3,Man asks woman if phone is worth money
-62.0,C4,"Woman says ""he's here"""
-62.0,C5,Man asks woman if she is okay
-63.0,C1,Man drives a car and turns a corner
-63.0,C2,Man stops the car and leans back
-63.0,C3,Woman approaches and stares at the car
-63.0,C4,"Man asks the woman ""Who's that?"""
-63.0,C5,Woman continues walking toward the car
-63.0,C6,"Man asks ""Miss?"" and follows her"
-63.0,C7,Man switches off the engine and steps outside
-64.0,C1,Woman accuses new man of going too far
-64.0,C2,"New man, Bob, questions woman about her behavior"
-64.0,C3,Woman demands to know whereabouts of someone
-64.0,C4,New man questions first man about his identity
-64.0,C5,"First man denies knowing woman, claims she broke his phone"
-64.0,C6,"New man is identified as Aldini the Great, a casino magician"
-64.0,C7,Woman is identified as Aldini's assistant
-65.0,C1,Woman interrupts a man by yelling and pointing a gun at him
-65.0,C2,Woman demands to know the whereabouts of someone from Aldini
-65.0,C3,Aldini tries to calm the woman down and questions if the gun is loaded
-65.0,C4,Aldini reveals he has a gun and shows it off
-65.0,C5,Woman fires a shot into the sky
-65.0,C6,Sound of a baby crying is heard
+42.0,C3,Man kicks and throws fossil
+42.0,C4,Fossil shatters window
+42.0,C5,Fossil hit by truck
+42.0,C6,Fossil crushed by road roller
+42.0,C7,Fossil becomes sand and dust
+43.0,C1,Rock becomes part of sand pile
+43.0,C2,Rock is picked up by excavator
+43.0,C3,Sand is dumped into a truck
+44.0,C1,Rock heated and melted in factory
+44.0,C2,Rock pressed into glass
+44.0,C3,Humans cover the glass rock
+45.0,C1,Rocket launched into space
+45.0,C2,Rocket disassembles into telescope
+45.0,C3,Rock is telescope lens
+45.0,C4,Rocket hits asteroid
+45.0,C5,Rocket veers off course
+45.0,C6,Rocket lands on the moon
+45.0,C7,Rock regrows into mountain
+46.0,C1,Man asks about the place.
+46.0,C2,Maid confirms it's a village.
+46.0,C3,Man inquires about police station.
+46.0,C4,Maid says no police station exists.
+46.0,C5,Man asks to use a phone.
+46.0,C6,Maid says no phone available.
+46.0,C7,Man directed to phone box.
+47.0,C1,Man uses L-shaped phone
+47.0,C2,Phone asks for a number
+47.0,C3,Man has no number
+47.0,C4,Phone denies call
+48.0,C1,Man examines village map
+48.0,C2,Woman in golf cart appears
+48.0,C3,Man requests mayor's town
+48.0,C4,Woman offers local service
+48.0,C5,Man rides in golf cart
+49.0,C1,Man questions location's name.
+49.0,C2,Woman evades man's questions.
+49.0,C3,"Economy uses ""credit units."""
+49.0,C4,"Farewell includes ""be seeing you."""
+50.0,C1,Man enters general store
+50.0,C2,"Clerk says ""be seeing you"""
+50.0,C3,Man looks confused
+51.0,C1,Man requests a map of the area.
+51.0,C2,Cashier provides only local maps.
+51.0,C3,Man asks about self-drive cars.
+51.0,C4,Cashier says only taxis available.
+51.0,C5,"Cashier uses ""be seeing you"" phrase."
+52.0,C1,Man discovers black hole on paper
+52.0,C2,Black hole printed from copy machine
+53.0,C1,Man discovers black hole's power
+53.0,C2,Retrieves cup from black hole
+53.0,C3,"Man laughs, realizing potential"
+54.0,C1,Uses black hole to steal a snack
+54.0,C2,Looks at black hole and smiles
+54.0,C3,Notices a door and approaches it
+55.0,C1,Man uses black hole on safe
+55.0,C2,Retrieves cash through black hole
+55.0,C3,Climbs into safe for more cash
+55.0,C4,Black hole paper falls off
+55.0,C5,Man trapped inside the safe
+56.0,C1,Woman and man use copiers in sync.
+56.0,C2,Both notice copiers are out of paper.
+56.0,C3,Man notices woman across the divider.
+56.0,C4,They lock eyes and look down.
+56.0,C5,Woman smiles shyly.
+57.0,C1,Man finds smiley face post-it note
+57.0,C2,"Woman looks at man, then hides"
+57.0,C3,Man smiles at post-it note
+58.0,C1,Woman sees sun made of post-its
+58.0,C2,Man sees heart post-it in mirror
+58.0,C3,Man smiles at heart post-it
+59.0,C1,Woman enters room with post-its.
+59.0,C2,Woman sees man making mural.
+59.0,C3,Mural depicts their faces together.
+59.0,C4,Man notices woman watching.
+59.0,C5,Woman smiles with tears in eyes.
+60.0,C1,Man waits at bus stop
+60.0,C2,Man holds melting ice cream
+60.0,C3,Woman exits SUV
+60.0,C4,Woman uses payphone
+60.0,C5,"Woman frustrated, slams phone"
+61.0,C1,Woman asks to borrow man's phone.
+61.0,C2,Woman claims it's an emergency.
+61.0,C3,Woman threatens to call police.
+61.0,C4,Woman throws phone on pavement.
+61.0,C5,Man approaches the woman.
+62.0,C1,Woman is crying
+62.0,C2,Man offers broken phone
+62.0,C3,"Woman says, ""He's here"""
+63.0,C1,Woman approaches the car
+63.0,C2,"Man asks, ""Who's that?"""
+63.0,C3,Woman mumbles words
+63.0,C4,Man exits the car
+64.0,C1,"Woman confronts Aldini, her partner."
+64.0,C2,Aldini is a stage magician.
+64.0,C3,Woman uses stranger's phone.
+64.0,C4,Stranger identifies Aldini.
+64.0,C5,Aldini's identity revealed to stranger.
+65.0,C1,Woman points gun at the man
+65.0,C2,"Woman demands, ""Where is she?"""
+65.0,C3,Aldini reveals his own gun
+65.0,C4,Woman fires a shot
 66.0,C1,Woman rushes toward the car
-66.0,C2,Aldini tells Charelle she's going to be okay
-66.0,C3,Aldini stops the first man to show him something
-66.0,C4,Aldini reveals a small coffin with a cross
+66.0,C2,"Aldini says, ""Charelle, she's going to be ok"""
+66.0,C3,Aldini runs in front of the first man
+66.0,C4,Aldini shows a small coffin
 66.0,C5,Aldini recites an incantation
-66.0,C6,Woman opens the car trunk and stumbles back in despair
-66.0,C7,"First man's eyes roll back, and he collapses"
-67.0,C1,Man is lying on the floor making dog noises
-67.0,C2,Aldini puts away mini coffin and reads a note
-67.0,C3,Woman approaches Aldini with a gun
-67.0,C4,Aldini is interrupted by a gunshot
-67.0,C5,Aldini is bleeding out but fires a shot
-67.0,C6,Aldini and woman are dead on the ground
-67.0,C7,First man continues barking and eating ice cream
-67.0,C8,Man crawls toward the woman
-68.0,C1,Man sniffs woman's leg
-68.0,C2,Man hears a bark and responds by barking back
-68.0,C3,Man crawls toward the sound
-68.0,C4,Man encounters a girl in a white dress barking
-68.0,C5,Man and girl sniff and circle each other
-68.0,C6,"They act like dogs, barking and fighting"
-68.0,C7,They crawl off screen together
+66.0,C6,"Woman opens trunk, stumbles back"
+66.0,C7,First man's eyes roll back
+66.0,C8,Man collapses on the ground
+67.0,C1,Man makes dog noises on floor
+67.0,C2,Aldini reads note aloud
+67.0,C3,Woman approaches with gun
+67.0,C4,Gunshot interrupts Aldini
+67.0,C5,Aldini fires gun before dying
+67.0,C6,"Man barks, eats ice cream"
+67.0,C7,Aerial view shows deaths
+67.0,C8,Man crawls toward woman
+68.0,C1,Man barks and crawls toward sound.
+68.0,C2,Man encounters girl barking like a dog.
+68.0,C3,Man and girl sniff and circle each other.
+68.0,C4,"They crawl off together, acting like dogs."
