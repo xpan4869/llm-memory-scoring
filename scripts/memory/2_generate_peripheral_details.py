@@ -1,5 +1,5 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: July 30, 2025
+# Last Edited: August 22, 2025
 # Description: The script helps to generate a list of details/peripherals for different events from event annotations, matching the number of gists per event.
 
 import os
@@ -46,12 +46,6 @@ def generate_peripheral_details(summary, annotation, num_details):
     ---
 
     **Steps:**
-    1. Identify distinct descriptive elements that **add context but are not required to understand what happens** in the scene.
-    2. Avoid including plot-driving events, character motivations, or turning points (those are central).
-    3. Exclude interpretive summaries or technical notes (e.g., camera angles, shots, zooming).
-    4. Keep each detail **short, simple, and non-redundant**.
-    5. Extract **exactly {num_details} details** — no more, no less.
-
     1. Identify distinct details that are **descriptive but not causally essential**.
     2. Exclude any plot-driving events, states, or turning points (those belong in central).
     3. Express each idea in a brief (≤10 words) form that captures its plot-relevant role.
