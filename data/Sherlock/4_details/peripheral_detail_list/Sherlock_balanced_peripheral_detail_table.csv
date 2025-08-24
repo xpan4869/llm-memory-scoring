@@ -1,203 +1,211 @@
 event_number,peripheral_id,peripheral
-1,P1,"People in popcorn, candy, and soft drink costumes."
-1,P2,Family of four snacking on popcorn and candy.
-2,P1,Wall made of stacked stones
-2,P2,Battlefield filled with tall grass
-2,P3,Soldier hand signalling to another
+1,P1,"People in popcorn, candy, and drink costumes"
+1,P2,Family of four snacking on popcorn and candy
+2,P1,Soldier kicks open a door
+2,P2,Soldiers hand signalling in tall grass
 3,P1,Echoing voice wakes John
 3,P2,John's breathing is rough
 3,P3,John begins to weep
-4,P1,Bedside lamp is on
-4,P2,Cane resting by the desk
-4,P3,Room is simply furnished
+4,P1,John sits upright on his bed
+4,P2,Bedside lamp is on
+4,P3,Cane resting by his desk
 4,P4,Mug with a coat of arms
 4,P5,Green apple on the desk
-4,P6,White notebook in the drawer
+4,P6,White notebook in desk drawer
+4,P7,Blog page is blank
 5,P1,Floral wallpaper in the room
-5,P2,Brown color theme in the room
-5,P3,John smirks without answering
+5,P2,Brown color-themed room
+5,P3,John's smirk at psychologist
 6,P1,London's famous cityline shown
-6,P2,"Words overlayed: Bomber, Connection"
+6,P2,"Woman in white shirt, black pants walking"
 6,P3,Drop of liquid on blood sample
-7,P1,View of London from the top of a building.
-7,P2,Helen wears a purple shirt and black skirt.
-7,P3,Sir Jeffrey is a middle-aged man.
-8,P1,Shaky hands unscrewing a bottle
+6,P4,Red blood cells moving around
+7,P1,Helen wears a purple shirt.
+7,P2,Sir Jeffrey is middle-aged.
+7,P3,Helen giggles on the phone.
+8,P1,Shaky hands unscrewing bottle
 8,P2,High rise building setting
 8,P3,Sir Jeffrey's fearful eyes
 9,P1,Abandoned office building setting
-9,P2,Ms. Patterson seated at a table
-9,P3,Helen weeping silently
+9,P2,Ms. Patterson tearfully reads statement
+9,P3,"Helen weeping, struggling to control emotions"
 10,P1,Rainy night setting
 10,P2,Jimmy wearing a hood
-10,P3,Gary has an umbrella
-10,P4,Taxi's yellow sign is lit
-10,P5,Jimmy gets soaked in the rain
+10,P3,Gary offers to share umbrella
+10,P4,Jimmy gets soaked in rain
 11,P1,Jimmy's scared eyes
-11,P2,Small glass bottle with capsules
+11,P2,Shaking hands clutching a glass bottle
 11,P3,Sitting on a window ledge
 11,P4,Overlooking a sports court
-12,P1,Large poster of Beth Davenport at the party
-12,P2,Pounding music from the party room
-12,P3,"""Happy Birthday"" banner in the background"
-12,P4,Woman aide in formalwear
-12,P5,Man aide standing at the bar
-12,P6,Beth looking for keys in her bag
-13,P1,Lestrade sits uncomfortably at the table.
-13,P2,Reporters' phones trill a text message alert.
-13,P3,Cameramen are at the back of the room.
-13,P4,Donovan covers her mouth and murmurs to Lestrade.
-13,P5,Lestrade looks exasperated and puts phone in pocket.
-14,P1,John walks with a limp and cane.
-14,P2,Mike jokes about getting fat.
-14,P3,John clenches his fist to control tremor.
-15,P1,Molly smiles with admiration.
-15,P2,Sherlock gives a fake smile.
-15,P3,Molly refreshes her lipstick.
+12,P1,Party held at a public venue
+12,P2,Large poster of Beth Davenport
+12,P3,Pounding music from the room
+12,P4,"""Happy Birthday"" banner visible"
+12,P5,Woman aide in formalwear
+12,P6,Man aide standing at the bar
+13,P1,Lestrade sits uncomfortably at the table
+13,P2,"Donovan covers her mouth, murmurs to Lestrade"
+13,P3,Reporters' phones trill text message alerts
+13,P4,Cameramen at the back of the room
+13,P5,Lestrade looks despairingly toward Donovan
+14,P1,John walks with a limp
+14,P2,Mike wears a beige jacket
+14,P3,John and Mike drink coffee
+14,P4,Mike jokes about getting fat
+15,P1,Molly knew the deceased.
+15,P2,Molly wears lipstick.
+15,P3,Sherlock prefers black coffee.
 16,P1,Sherlock prefers texting over calls.
 16,P2,Sherlock comments on Molly's lipstick.
-16,P3,Sherlock grimaces at the taste of coffee.
-16,P4,Sherlock mentions leaving his riding crop in the mortuary.
-17,P1,John sits blankly on his bed.
-17,P2,John uses a cane to get up.
-18,P1,Pink high-heeled shoes
-18,P2,Pink fingernails
-19,P1,Baker Street sign is visible.
-19,P2,Speedy's Café is next to 221B.
-19,P3,Sherlock has a skull on mantel.
-19,P4,Mrs. Hudson tidies the kitchen.
-20,P1,Sherlock opens his laptop while tidying up.
-20,P2,John looked up Sherlock on the internet.
-20,P3,Sherlock puts hands in pant pockets.
-20,P4,John gives Sherlock a disbelieving look.
-21,P1,Mrs. Hudson comes out of kitchen
-21,P2,Sherlock stares out the window
-21,P3,Police car lights flashing
-22,P1,Mrs. Hudson stands by the kitchen entrance.
-22,P2,John sits with his hand on his cane.
+16,P3,Sherlock plays the violin when thinking.
+16,P4,Sherlock mentions leaving a riding crop.
+16,P5,John uses a cane and shifts awkwardly.
+17,P1,John sits blankly on his bed
+17,P2,John uses a cane to get up
+18,P1,Pink overcoat and high-heeled shoes
+18,P2,Pink fingernails and trembling hand
+19,P1,"Sign: ""Baker Street W1, City of Westminster"""
+19,P2,Next to Speedy's Café - Sandwich Bar and Cafe
+19,P3,Sherlock has hands behind his back
+19,P4,John points to a skull on the mantelpiece
+20,P1,Sherlock opens laptop while tidying up
+20,P2,John looked up Sherlock on the internet
+20,P3,Sherlock smiles proudly about his website
+21,P1,Mrs. Hudson asks about suicides
+21,P2,Police car parked outside
+22,P1,Mrs. Hudson stands by kitchen entrance.
+22,P2,John sits with hand on cane.
 22,P3,Lestrade gives a little bow.
-22,P4,Sherlock twirls around the room happily.
-23,P1,Mrs. Hudson offers to make tea for John.
-23,P2,John reads a newspaper article on Beth Davenport.
-23,P3,Mrs. Hudson insists she's not a housekeeper.
-24,P1,Sherlock puts on black gloves.
-24,P2,John uses a cane and grunts when standing.
-24,P3,Mrs. Hudson smiles despite her comment.
-24,P4,Sherlock kisses Mrs. Hudson on the cheek.
-24,P5,The taxi signals and merges with traffic.
-25,P1,It is now dark outside.
-25,P2,John keeps stealing nervous glances at Sherlock.
-25,P3,Sherlock takes a deep breath.
-25,P4,John laughs and looks at Sherlock.
-25,P5,John grins and turns away to look out the window.
-25,P6,The taxi passes by a clothing store.
-25,P7,Frontal view of a black taxi passing by.
-26,P1,Sherlock adjusts his coat.
-26,P2,John continues walking.
-26,P3,Sherlock stops dead in his tracks.
+22,P4,Sherlock twirls around the room.
+22,P5,Mrs. Hudson mentions her husband.
+23,P1,Mrs. Hudson offers to make tea
+23,P2,John reads newspaper article
+24,P1,Sherlock wears black gloves.
+24,P2,John uses a cane to stand.
+24,P3,Mrs. Hudson smiles at Sherlock.
+24,P4,Sherlock kisses Mrs. Hudson's cheek.
+24,P5,Sherlock hails a black taxi.
+25,P1,Dark outside during taxi ride
+25,P2,John nervously glances at Sherlock
+25,P3,Sherlock takes a deep breath
+25,P4,John laughs during conversation
+25,P5,Sherlock smiles briefly
+25,P6,John grins and looks out window
+25,P7,Taxi passes by clothing store
+25,P8,White mannequins on display
+25,P9,Local traffic visible
+26,P1,Sherlock adjusts his coat
+26,P2,John mentions Harry is a drinker
+26,P3,Sherlock stops dead in his tracks
 27,P1,"Donovan calls Sherlock ""freak."""
 27,P2,"Sherlock sarcastically calls Donovan ""old friend."""
-27,P3,Sherlock lifts the police tape for John.
+27,P3,Sherlock deduces Donovan didn't go home last night.
 27,P4,Anderson wears men's deodorant.
-27,P5,John smirks at Sherlock's deduction.
-27,P6,Sherlock comments on the state of Donovan's knees.
-28,P1,"People in popcorn, candy, and soft drink costumes."
-28,P2,Family of four snacking on popcorn and candy.
-29,P1,Lestrade is putting on a coverall.
-29,P2,John shakes his head at Sherlock.
-29,P3,Spiral staircase has a foreboding feeling.
-29,P4,Room is empty except for a rocking horse.
-29,P5,Emergency portable lighting is set up.
-30,P1,Lestrade has his hands behind his back.
-30,P2,John looks at the woman's body with sadness.
-30,P3,The woman wears a pink jacket.
-30,P4,Sherlock uses a magnifier to inspect jewelry.
-30,P5,The woman's nail polish is chipped.
-31,P1,Sherlock removes his gloves.
-31,P2,Anderson leans against the doorway.
-31,P3,Sherlock selects the Maps option on his phone.
-31,P4,John looks contemplative.
-32,P1,John awkwardly stays silent.
-32,P2,Lestrade lowers his eyes helplessly.
-32,P3,John leans heavily on his cane.
-32,P4,John sniffs the woman's body.
-32,P5,Lestrade stands just inside the doorway.
-33,P1,"Woman dressed in a ""frankly alarming shade of pink."""
-33,P2,Lestrade has his arms crossed.
-33,P3,John's admiration for Sherlock's deductions.
-33,P4,"Sherlock's sarcastic remark about ""angry note in German."""
-33,P5,John's repeated apologies to Sherlock.
+27,P5,Sherlock comments on Donovan's knees.
+27,P6,John smirks at Sherlock's deduction.
+28,P1,"People in popcorn, candy, and drink costumes"
+28,P2,Family of four snacking on popcorn and candy
+29,P1,Lestrade putting on a coverall
+29,P2,John takes off his jacket
+29,P3,Sherlock picks up latex gloves
+29,P4,Policeman passes by
+29,P5,John shakes his head
+29,P6,Spiral staircase from the 3rd floor
+29,P7,White cotton coverings over shoes
+29,P8,Rocking horse in the room's corner
+30,P1,Lestrade has hands behind back
+30,P2,John looks at corpse sadly
+30,P3,Woman's pink jacket
+30,P4,Sherlock uses magnifier
+30,P5,Gold bracelet on left wrist
+31,P1,Sherlock removes his gloves
+31,P2,Anderson leans against doorway
+31,P3,Sherlock checks UK weather menu
+31,P4,John looks contemplative
+32,P1,John awkwardly stays silent
+32,P2,Lestrade lowers his eyes helplessly
+32,P3,John leans heavily on his cane
+32,P4,John sniffs the woman's body
+32,P5,Lestrade stands just inside doorway
+33,P1,Woman dressed in alarming pink
+33,P2,Lestrade has arms crossed
+33,P3,Wedding ring regularly removed
+33,P4,Pink nail polish on her nails
+33,P5,Coat slightly damp from rain
+33,P6,Umbrella dry and unused
+33,P7,Mud marks on right leg
+33,P8,Lestrade shakes his head
 34,P1,Policeman guarding the door
 34,P2,Anderson and others in coveralls waiting
 34,P3,Lestrade leans against the railings
-34,P4,John hesitates on the landing
-34,P5,Police officer bumps into John on the stairs
-34,P6,John removes coveralls and puts jacket back on
-35,P1,Donovan lifts the police tape.
-35,P2,John looks around thoughtfully.
-35,P3,Donovan nods while speaking.
-35,P4,John limps down the road.
+34,P4,John stands silently beside Lestrade
+34,P5,John hesitates on the landing
+34,P6,Police officer bumps into John on stairs
+34,P7,"John removes coveralls, puts jacket back on"
+35,P1,Donovan lifts tape for John
+35,P2,John looks around thoughtfully
+35,P3,Donovan nods while speaking
+35,P4,John limps down the road
 36,P1,Red public telephone booth
-36,P2,John looks at his watch
-36,P3,John tries to hail a taxi
-36,P4,Chicken Cottage fast food restaurant
-36,P5,Payphone on the wall inside the restaurant
-36,P6,Black car pulls up at the kerbside
-36,P7,Male driver opens the rear car door
-37,P1,John sits behind the driver.
-37,P2,Anthea types on her BlackBerry.
-37,P3,Car pulls into an empty warehouse.
-38,P1,Man leans on an umbrella
+36,P2,John checks his watch
+36,P3,Taxi passes John by
+36,P4,Chicken Cottage fast food place
+36,P5,Payphone rings inside restaurant
+36,P6,Black car pulls up at kerbside
+36,P7,Male driver opens car door
+37,P1,John sits behind the driver
+37,P2,Woman types on her BlackBerry
+37,P3,Car enters an empty warehouse
+38,P1,"Man leans on umbrella, face not shown"
 38,P2,Car's lights illuminate the area
-38,P3,Straight-backed armless chair is present
+38,P3,Straight-backed armless chair in warehouse
 38,P4,Man's voice has a pleasant smile
-38,P5,Man consults a notebook
+38,P5,Man consults a notebook during conversation
 39,P1,The Man laughs briefly.
-39,P2,John looks a little unnerved.
+39,P2,John tilts his head.
 39,P3,The Man leans on his umbrella.
-39,P4,John tilts his head.
 40,P1,John shifts his feet deliberately.
-40,P2,The Man hooks the umbrella over his arm.
+40,P2,The Man hooks umbrella over his arm.
 40,P3,The Man twirls his umbrella while walking.
-40,P4,Anthea is focused on her BlackBerry.
-41,P1,John takes out phone from left pocket
-41,P2,John studies lack of tremor in hand
-41,P3,John switches on light in bedsit
-42,P1,John looks around to his right.
-42,P2,John checks the gun clip.
-43,P1,Anthea is fixated on her phone.
-43,P2,John nods in resignation.
-43,P3,Anthea smiles sarcastically.
-44,P1,Sherlock's jacket is off.
-44,P2,Sherlock's shirt sleeves are unbuttoned.
-44,P3,John looks out the window for a moment.
-45,P1,Sherlock remains on the sofa with eyes closed.
+40,P4,Anthea focuses on her BlackBerry.
+41,P1,John uses his left pocket for phone.
+41,P2,John studies his hand for tremors.
+41,P3,"John specifies ""Two two one B Baker Street."""
+42,P1,John looks around to his right
+42,P2,John checks the gun clip
+43,P1,Anthea fixated on her phone
+43,P2,John asks Anthea about free time
+43,P3,Anthea sarcastically replies to John
+44,P1,Sherlock lying on the sofa
+44,P2,Sherlock's shirt sleeves unbuttoned
+44,P3,Three nicotine patches on Sherlock's arm
+45,P1,"Sherlock remains on the sofa, eyes closed."
 45,P2,John was on the other side of London.
-45,P3,Sherlock holds the phone between his palms.
+45,P3,Sherlock doesn't want his number recognized.
 45,P4,John stands in front of the fireplace.
-45,P5,John looks out the window into the streets.
-46,P1,John looks out of the window.
-46,P2,Sherlock frowns in confusion.
-46,P3,"John pauses, surprised by reaction."
-46,P4,Sherlock narrows his eyes suspiciously.
-46,P5,"Sherlock speaks softly, then with strength."
-47,P1,John shoots Sherlock a dark look.
-47,P2,"Sherlock has his hands together, eyes closed."
-47,P3,John shakes his head while typing.
-47,P4,Sherlock flips a dining chair around.
-47,P5,Items in the suitcase are all pink.
+45,P5,John looks out the window into the street.
+46,P1,John looks out of the window
+46,P2,Sherlock frowns in confusion
+46,P3,"John pauses, surprised by reaction"
+46,P4,Sherlock narrows eyes suspiciously
+46,P5,Sherlock speaks softly
+47,P1,John shoots a dark look at Sherlock
+47,P2,"Sherlock has hands together, eyes closed"
+47,P3,John shakes his head while typing
+47,P4,Sherlock flips dining chair around
+47,P5,Items in suitcase are all pink
 48,P1,Sherlock rolls his eyes sarcastically.
 48,P2,John limps across the room.
 48,P3,Sherlock perches on the armchair.
 48,P4,John drops heavily into the armchair.
 48,P5,Flashback of Sherlock on a rooftop.
-48,P6,Case found in a skip under black plastic.
-49,P1,Sherlock sits down properly.
-49,P2,John looks at his mobile phone.
-49,P3,Sherlock smiles at John.
-49,P4,John has a shocked look.
-49,P5,John's phone rings with withheld ID.
-50,P1,Sherlock adjusts his jacket.
-50,P2,John looks toward the fireplace.
-50,P3,Sherlock organizes his scarf.
-50,P4,John leans onto his cane.
+48,P6,Sherlock makes a placatory gesture.
+49,P1,Sherlock sits down properly on the chair.
+49,P2,John looks down at his mobile phone.
+49,P3,John's phone begins to ring.
+49,P4,Caller ID reads: (withheld) calling.
+49,P5,John has a shocked look on his face.
+50,P1,Sherlock adjusts his jacket
+50,P2,Mrs. Hudson took Sherlock's skull
+50,P3,John looks toward the fireplace
+50,P4,Sherlock organizes his scarf

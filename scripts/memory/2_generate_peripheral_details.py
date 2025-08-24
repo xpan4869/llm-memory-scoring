@@ -16,7 +16,7 @@ openai.api_key = OPENAI_API_KEY
 
 os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
 _THISDIR = os.getcwd()
-DATASET_NAME = "Filmfest" # "Filmfest" or "Sherlock"
+DATASET_NAME = "Sherlock" # "Filmfest" or "Sherlock"
 DAT_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '1_annotations'))
 NUM_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/central_detail_list'))
 SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/peripheral_detail_list'))
@@ -105,9 +105,9 @@ def flatten_peripheral_data(raw_data):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    central_files = glob.glob(os.path.join(NUM_PATH, '*_context.csv'))
+    central_files = glob.glob(os.path.join(NUM_PATH, '*.csv'))
     if not central_files:
-        raise FileNotFoundError("No *_context.csv file found in NUM_PATH")
+        raise FileNotFoundError("No *.csv file found in NUM_PATH")
     central_file = central_files[0]
 
     central_table = pd.read_csv(central_file)
@@ -142,4 +142,4 @@ if __name__ == "__main__":
         peripheral_table_all.append(peripheral_table)
     
     peripheral_df = flatten_peripheral_data(peripheral_table_all)
-    peripheral_df.to_csv(f"{SAVE_PATH}/{DATASET_NAME}_balanced_peripheral_detail_table", index=False)
+    peripheral_df.to_csv(f"{SAVE_PATH}/{DATASET_NAME}_balanced_peripheral_detail_table.csv", index=False)
