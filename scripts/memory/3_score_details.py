@@ -1,5 +1,5 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: August 22, 2025
+# Last Edited: August 24, 2025
 # Description: The script helps to generate scores for different participants of different events, for memory of central and peripheral details.
 
 import os
@@ -15,7 +15,7 @@ openai.api_key = OPENAI_API_KEY
 os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
 _THISDIR = os.getcwd()
 DATASET_NAME = "Filmfest" # "Filmfest" or "Sherlock"
-MEM_TYPE = "peripheral" # "central" or "peripheral"
+MEM_TYPE = "central" # "central" or "peripheral"
 RECALL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '3_transcripts'))
 DETAIL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, f'4_details/{MEM_TYPE}_detail_list'))
 SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, f'5_memory-fidelity/{MEM_TYPE}_detail_scores'))
@@ -198,9 +198,11 @@ def parse_table_by_event(table, event_number):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    detail_files = glob.glob(os.path.join(DETAIL_PATH, '*context.csv'))
+    detail_files = glob.glob(os.path.join(DETAIL_PATH, '*.csv'))
     detail_df = pd.read_csv(detail_files[0])
     recall_files = glob.glob(os.path.join(RECALL_PATH, '*.csv'))
+
+    id_col = 'central_id' if MEM_TYPE == 'central' else 'peripheral_id'
 
     # iterate over participants （files）
     all_results = []
@@ -217,12 +219,20 @@ if __name__ == "__main__":
             event_number = transcript_by_event[i][0]
             participant_recall = transcript_by_event[i][1]
 
-            # skip events without recalls
-            if pd.isna(participant_recall):
-                continue
-            
             detail_table = parse_table_by_event(detail_df, event_number)
 
+            # Skip events without recalls and record them as 0
+            if pd.isna(participant_recall):
+                if not detail_table.empty:
+                    for did in detail_table[id_col].astype(str).tolist():
+                        results.append({
+                            "participant_id": participant_id,
+                            "event_number": event_number,
+                            id_col: did,
+                            "score": 0
+                        })
+                continue
+            
             if MEM_TYPE == 'central':
                 gpt_output = generate_graded_central_scores(participant_id, participant_recall, event_number, detail_table)
                 output = parse_central_score_table(gpt_output)
