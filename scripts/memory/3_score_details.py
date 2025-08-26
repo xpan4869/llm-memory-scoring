@@ -1,31 +1,52 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: August 24, 2025
+# Last Edited: August 26, 2025
 # Description: The script helps to generate scores for different participants of different events, for memory of central and peripheral details.
 
-import os
+import os, sys, argparse
 import openai
 import pandas as pd
-import getpass
-import glob
+from pathlib import Path
 
-# ------------------ Hardcoded parameters ------------------ #
-OPENAI_API_KEY = getpass.getpass("OpenAI API Key:")
-openai.api_key = OPENAI_API_KEY 
+# ---------- env & API key ----------
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
 
-os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
-_THISDIR = os.getcwd()
-DATASET_NAME = "Filmfest" # "Filmfest" or "Sherlock"
-MEM_TYPE = "central" # "central" or "peripheral"
-RECALL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '3_transcripts'))
-DETAIL_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, f'4_details/{MEM_TYPE}_detail_list'))
-SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, f'5_memory-fidelity/{MEM_TYPE}_detail_scores'))
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    sys.exit("[ERROR] OPENAI_API_KEY not found. Put it in .env or export it before running.")
+openai.api_key = api_key
 
-if not os.path.exists(SAVE_PATH):
-    os.makedirs(SAVE_PATH)
+# ---- dataset & paths ----
+_ap = argparse.ArgumentParser(add_help=False)
+_ap.add_argument("--dataset", choices=["Filmfest", "Sherlock"],
+                default=os.getenv("DATASET", "Filmfest"))
+_ap.add_argument("--mem-type", dest="mem_type", choices=["central", "peripheral"],
+                default=os.getenv("MEM_TYPE", "central"))
+_args, _ = _ap.parse_known_args()
+
+DATASET_NAME = _args.dataset
+MEM_TYPE = _args.mem_type
+
+REPO = Path(__file__).resolve().parents[2] if "__file__" in globals() else Path.cwd()
+DS_ROOT = REPO / "data" / DATASET_NAME
+
+DAT_PATH = DS_ROOT / "1_annotations"
+if not DAT_PATH.exists():
+    sys.exit(f"[ERROR] Not found: {DAT_PATH}")
+RECALL_PATH = DS_ROOT / "3_transcripts"
+if not RECALL_PATH.exists():
+    sys.exit(f"[ERROR] Not found: {RECALL_PATH}")
+DETAIL_PATH = DS_ROOT / "4_details" / f'{MEM_TYPE}_detail_list'
+if not DETAIL_PATH.exists():
+    sys.exit(f"[ERROR] Not found: {DETAIL_PATH}")
+SAVE_PATH = DS_ROOT / "5_memory-fidelity" / f'{MEM_TYPE}_detail_scores'
+SAVE_PATH.mkdir(parents=True, exist_ok=True)
 
 # ------------------ Define functions ------------------ #
-def generate_graded_central_scores(participant_id, participant_recall, event_number, central_details):
-    prompt = f"""
+PROMPT_CEN = """
     You are an expert annotator evaluating whether a participant recalled **central details** from a movie event.
 
     ---
@@ -63,16 +84,7 @@ def generate_graded_central_scores(participant_id, participant_recall, event_num
     | ...             | ...          | ...        | ... |
     """.strip()
 
-    response = openai.chat.completions.create(
-      model="gpt-4o",
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.0,
-    )
-
-    return response.choices[0].message.content
-
-def generate_graded_peripheral_scores(participant_id, participant_recall, event_number, peripheral_details):
-    prompt = f"""
+PROMPT_PERI = """
     You are an expert annotator evaluating whether a participant recalled **peripheral details** from a movie event.
 
     ---
@@ -107,6 +119,20 @@ def generate_graded_peripheral_scores(participant_id, participant_recall, event_
     | {participant_id} | {event_number} | P2 | ?
     | ...      | ...             | ...          | ...       | ...   |
     """.strip()
+
+def generate_graded_central_scores(participant_id, participant_recall, event_number, central_details):
+    prompt = PROMPT_CEN.format(participant_id=participant_id, participant_recall=participant_recall, event_number=event_number, central_details=central_details)
+
+    response = openai.chat.completions.create(
+      model="gpt-4o",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.0,
+    )
+
+    return response.choices[0].message.content
+
+def generate_graded_peripheral_scores(participant_id, participant_recall, event_number, peripheral_details):
+    prompt = PROMPT_PERI.format(participant_id=participant_id, participant_recall=participant_recall, event_number=event_number, peripheral_details=peripheral_details)
 
     response = openai.chat.completions.create(
         model="gpt-4o",
@@ -198,9 +224,9 @@ def parse_table_by_event(table, event_number):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    detail_files = glob.glob(os.path.join(DETAIL_PATH, '*.csv'))
+    detail_files = list(DETAIL_PATH.glob("*.csv"))
     detail_df = pd.read_csv(detail_files[0])
-    recall_files = glob.glob(os.path.join(RECALL_PATH, '*.csv'))
+    recall_files = list(RECALL_PATH.glob("*.csv"))
 
     id_col = 'central_id' if MEM_TYPE == 'central' else 'peripheral_id'
 
