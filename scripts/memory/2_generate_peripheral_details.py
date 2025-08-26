@@ -1,32 +1,45 @@
 # Authors: Yolanda Pan (xpan02@uchicago.edu)
-# Last Edited: August 22, 2025
+# Last Edited: August 26, 2025
 # Description: The script helps to generate a list of details/peripherals for different events from event annotations, matching the number of gists per event.
 
-import os
+import os, sys, argparse
 import openai
 import pandas as pd
-import getpass
-import glob
 from collections import defaultdict
+from pathlib import Path
 
+# ---------- env & API key ----------
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
 
-# ------------------ Hardcoded parameters ------------------ #
-OPENAI_API_KEY = getpass.getpass("OpenAI API Key:")
-openai.api_key = OPENAI_API_KEY 
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    sys.exit("[ERROR] OPENAI_API_KEY not found. Put it in .env or export it before running.")
+openai.api_key = api_key
 
-os.chdir("/Users/yolandapan/automated-memory-scoring/scripts/memory")
-_THISDIR = os.getcwd()
-DATASET_NAME = "Sherlock" # "Filmfest" or "Sherlock"
-DAT_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '1_annotations'))
-NUM_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/central_detail_list'))
-SAVE_PATH = os.path.normpath(os.path.join(_THISDIR, '../../data/' + DATASET_NAME, '4_details/peripheral_detail_list'))
+# ---- dataset & paths ----
+_ap = argparse.ArgumentParser(add_help=False)
+_ap.add_argument("--dataset", choices=["Filmfest", "Sherlock"])
+_args, _ = _ap.parse_known_args()
+DATASET_NAME = _args.dataset or os.getenv("DATASET", "Filmfest")
 
-if not os.path.exists(SAVE_PATH):
-    os.makedirs(SAVE_PATH)
+REPO = Path(__file__).resolve().parents[2] if "__file__" in globals() else Path.cwd()
+DS_ROOT = REPO / "data" / DATASET_NAME
+
+DAT_PATH = DS_ROOT / "1_annotations"
+if not DAT_PATH.exists():
+    sys.exit(f"[ERROR] Not found: {DAT_PATH}")
+NUM_PATH = DS_ROOT / "4_details" / "central_detail_list"
+if not NUM_PATH.exists():
+    sys.exit(f"[ERROR] Not found: {NUM_PATH}")
+SAVE_PATH = DS_ROOT / "4_details" / "peripheral_detail_list"
+SAVE_PATH.mkdir(parents=True, exist_ok=True)
 
 # ------------------ Define functions ------------------ #
-def generate_peripheral_details(summary, annotation, num_details):
-    prompt = f'''
+PROMPT = '''
     **Task:**
     You are assisting a memory researcher in analyzing a movie scene annotation to extract its **peripheral details**.
     
@@ -64,6 +77,8 @@ def generate_peripheral_details(summary, annotation, num_details):
     | ...           | ...    |
 '''.strip()
 
+def generate_peripheral_details(summary, annotation, num_details):
+    prompt = PROMPT.format(summary=summary, annotation=annotation, num_details=num_details)
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
@@ -105,15 +120,15 @@ def flatten_peripheral_data(raw_data):
 
 # ------------------- Main ------------------ #
 if __name__ == "__main__":
-    central_files = glob.glob(os.path.join(NUM_PATH, '*.csv'))
+    central_files = list(NUM_PATH.glob("*.csv"))
     if not central_files:
         raise FileNotFoundError("No *.csv file found in NUM_PATH")
     central_file = central_files[0]
-
+    
     central_table = pd.read_csv(central_file)
 
-    annotation_file = glob.glob(os.path.join(DAT_PATH, '*_annotations.csv'))[0]
-    summary_file = glob.glob(os.path.join(DAT_PATH, '*_summary.csv'))[0]
+    annotation_file = list(DAT_PATH.glob("*_annotations.csv"))[0] 
+    summary_file = list(DAT_PATH.glob("*_summary.csv"))[0] 
     annotations = pd.read_csv(annotation_file)
     summaries = pd.read_csv(summary_file)
 
