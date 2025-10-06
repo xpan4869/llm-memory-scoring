@@ -1,6 +1,6 @@
 # llm-memory-scoring
 
-This repository corresponds to a paper under anonymous review; title and authors will be added after acceptance.
+This repository corresponds to a paper of "LLM-based scoring of narrative memories reveals that emotional arousal enhances central information at the expense of peripheral information"
 
 The repository is organized as follows:
 
